@@ -5,6 +5,9 @@ import { renderStudio, mountStudio, studioData } from './studio.js';
 import { openTheatreVideo } from './theatre-video.js';
 import { initializePlatform } from './platform.js';
 import { createBrowserNavigation } from './navigation.js';
+import { installImageIntegrity } from './image-integrity.js';
+
+installImageIntegrity();
 
 const state = loadState(), main = document.querySelector('#main'), nav = document.querySelector('#navigation');
 const items = [['theatre', '戏台'], ['learn', '学艺'], ['backstage', '幕后'], ['shop', '文创'], ['me', '我的']];
