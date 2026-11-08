@@ -1,0 +1,61 @@
+/* Theatre home only: reference artwork and live controls, with the shared nav intact. */
+.theatre-home{container-type:inline-size;background:#f5ecdd url('../assets/theatre-home-v2/paper.png') center/auto 7cqw;color:#231f18;overflow:hidden;position:relative}
+.theatre-home-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.theatre-home-hero{position:relative;aspect-ratio:850/350}
+.theatre-home-hero-art{display:block;width:100%;height:100%;object-fit:cover}
+.theatre-home-intro{position:absolute;left:9.4%;top:52.8%;white-space:nowrap}
+.theatre-home-intro h2{font-size:3.8cqw;line-height:1.4;letter-spacing:.35cqw;font-weight:700}
+.theatre-home-intro p{font-size:2.7cqw;line-height:1.5;letter-spacing:.15cqw;margin-top:.55cqw;font-weight:700}
+.theatre-home-tools{display:flex;position:absolute;right:4.4%;top:16.4%;gap:.8cqw}
+.theatre-home-tools button{display:grid;place-items:center;width:8.2cqw;height:9.2cqw;padding:1.5cqw;color:#37382e}
+.theatre-home-tools svg{width:4.1cqw;height:4.1cqw;stroke-width:1.25}
+.theatre-home-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:1.3cqw 4.6cqw 2.5cqw;border:0;gap:.3cqw;align-items:center;min-height:46px;background:transparent;margin:0}
+.theatre-home-tabs button{position:relative;display:flex;align-items:center;justify-content:center;gap:.65cqw;min-height:32px;font-size:12px;font-weight:700;line-height:1;padding:.75cqw 0;white-space:nowrap}
+.theatre-home-tabs button+button:before{content:'';position:absolute;height:2.6cqw;width:1px;left:-.4cqw;background:#635c4c}
+.theatre-home-tabs button.selected{border:0;border-radius:0;background:transparent url('../assets/theatre-home-v2/tab-selected.png') center/100% 100% no-repeat;color:#fff3df}
+.theatre-home-tabs button.selected+button:before{display:none}
+.theatre-home-fan{display:flex;width:2.6cqw;height:2.6cqw;color:#99846e}
+.theatre-home-fan svg{width:100%;height:100%;fill:#c7b49a55;stroke:currentColor;stroke-width:1.4}
+.theatre-home-tabs .selected .theatre-home-fan{color:#f7dbb6}
+.theatre-home-content{padding:0 4.4cqw}
+.theatre-home .theatre-home-today{display:block;aspect-ratio:786/272;height:auto;margin:0;overflow:visible;background:none;border:0;border-radius:0;box-shadow:none}
+.theatre-home .theatre-home-panel-art{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:fill;mask-image:none;z-index:0}
+.theatre-home-today>.theatre-home-today-copy{position:absolute;left:9.1%;top:22%;padding:0;z-index:1;white-space:nowrap}
+.theatre-home-today h2{font-size:4.8cqw;line-height:1.15;letter-spacing:-.2cqw;margin:0 0 2.4cqw;font-weight:700}
+.theatre-home-today p{display:flex;align-items:center;gap:2.1cqw;font-size:2.45cqw;margin:0;line-height:1.5;font-weight:700;letter-spacing:0}
+.theatre-home-today p>span{display:inline-flex;align-items:center;gap:.8cqw}
+.theatre-home-today p svg{width:2.6cqw;height:2.6cqw;stroke:currentColor;stroke-width:2;fill:none}
+.theatre-home .theatre-home-ribbon{position:absolute;top:17%;left:2.8%;writing-mode:vertical-rl;letter-spacing:.05cqw;font-size:2.65cqw;line-height:1.2;color:#fff0d4;z-index:1}
+.theatre-home-today .theatre-home-ticket{position:absolute;top:13.65cqw;left:.7cqw;width:21.9cqw;min-height:5.5cqw;display:flex;align-items:center;justify-content:center;gap:1.2cqw;color:#fff3db;font-size:2.7cqw;font-weight:700;padding:0}
+.theatre-home-watch{position:absolute;right:1.5%;top:7%;width:51%;height:86%;display:grid;place-items:center;padding:0;z-index:2}
+.theatre-home-watch-icon{display:grid;place-items:center;width:8.5cqw;height:8.5cqw;border:1px solid #fff3d5c9;border-radius:50%;background:#4b281f80;color:#fff4df;box-shadow:0 2px 9px #24150f45;transition:background .15s}
+.theatre-home-watch:hover .theatre-home-watch-icon{background:#9a3322d9}
+.theatre-home-watch-icon svg{width:4cqw;height:4cqw;fill:currentColor;stroke:currentColor;margin-left:.5cqw}
+.theatre-home-section{margin:23px 0 14px;min-height:4.8cqw;gap:1cqw}
+.theatre-home-section h2{display:flex;align-items:center;gap:1.6cqw;font-size:18px;letter-spacing:1px;line-height:1.3;color:#1e1c16}
+.theatre-home-section h2 img{width:4.9cqw;height:5.1cqw;object-fit:contain;mix-blend-mode:multiply}
+.theatre-home-section .text-button{font-size:11px;font-weight:700;padding:1cqw .5cqw;color:#302b22}
+.theatre-home-section .text-button span{font-size:2.8cqw;margin-left:.4cqw}
+.theatre-home-classics{gap:2.3cqw;margin:0 1.7cqw}
+.theatre-home-card{display:flex;flex-direction:column;align-items:stretch;text-align:left;overflow:visible;min-width:0;transition:transform .15s}
+.theatre-home-card:active{transform:translateY(1px)}
+.theatre-home-card>img{display:block;height:auto;aspect-ratio:178/151;width:100%;mask-image:none;object-fit:fill}
+.theatre-home-card-copy{display:block;flex:1;position:relative;min-height:65px;background-position:center;background-size:100% 100%;background-repeat:no-repeat;padding:7px 4px 8px;filter:drop-shadow(0 2px 1px #66513a13)}
+.theatre-home-card-title{display:block;font-size:13px;letter-spacing:0;line-height:1.3;white-space:normal;min-height:2.6em;font-weight:700}
+.theatre-home-card small{display:flex;align-items:center;justify-content:space-between;font-size:10px;color:#7e715c;margin:5px 0 0;line-height:1.2;letter-spacing:0}
+.theatre-home-card small>span{color:#a88b6a}
+.theatre-home-culture-section .theatre-home-section{margin:24px 0 18px}
+.theatre-home .theatre-home-culture{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 16px;padding:0 4px}
+.theatre-home-culture button{display:flex;align-items:center;flex-direction:row;justify-content:flex-start;gap:10px;min-height:76px;padding:6px 0;font-size:13px;letter-spacing:.3px;white-space:nowrap;min-width:0}
+.theatre-home .theatre-home-culture button>span:last-child{display:block;width:auto;height:auto;border-radius:0;background:none;box-shadow:none;color:inherit;font:inherit;line-height:1.5}
+.theatre-home .theatre-home-culture button>.culture-icon{width:55px;height:55px;flex:0 0 55px;background:none;box-shadow:none;border-radius:0;mix-blend-mode:multiply}
+.theatre-home-culture .culture-icon>img{width:100%;height:100%;object-fit:contain}
+@media(prefers-reduced-motion:reduce){.theatre-home-card{transition:none}}
+.paper-modal.theatre-video-modal{width:min(100%,640px);padding:24px 16px 16px}
+.theatre-video-dialog h2{font-size:21px;line-height:1.5}
+.theatre-video-dialog .theatre-video-caption{font-size:12px;color:#7d674b;margin:3px 0 13px}
+.theatre-video-player{display:block;width:100%;aspect-ratio:16/9;max-height:60dvh;background:#100e0b;object-fit:contain;border-radius:3px}
+.theatre-video-dialog .theatre-video-status{font-size:12px;line-height:1.6;margin:10px 0}
+.theatre-video-status[hidden],.theatre-video-retry[hidden]{display:none}
+.theatre-video-footer{display:flex;justify-content:flex-end;margin-top:14px}
+.play-video-entry{margin-top:12px;display:inline-flex}

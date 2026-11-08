@@ -1,0 +1,37 @@
+.workshop-v4 .workshop-top{margin:0 12px;padding:4px 6px}
+.workshop-v4 .workshop-top button{min-height:40px}
+.workshop-v4 .section-title{margin-top:19px;margin-bottom:5px}
+.workshop-intro{font-size:11px;color:#8b7559;margin:0 0 13px}
+.workshop-editing{display:flex;align-items:center;justify-content:space-between;font-size:10px;color:#94734f;margin-bottom:8px}
+.workshop-editing button{min-height:32px;padding:3px 0 3px 9px;color:#a34630}
+.workshop-stage{height:344px;position:relative;overflow:hidden;display:flex;justify-content:center;align-items:center;border-radius:45% 45% 5px 5px;background-color:#efe6d4;background-image:radial-gradient(ellipse at 50% 42%,#fff9ecbb,#f6edda55 65%),url('../assets/v3-art/page-backdrop.png');background-size:cover;background-position:center}
+.workshop-stage-ring{position:absolute;inset:15px 22px 13px;border:1px solid #b99b6266;border-radius:48% 48% 5px 5px;pointer-events:none}
+.workshop-stage-ring:after{content:'';position:absolute;inset:5px;border:1px solid #cdb78b44;border-radius:inherit}
+.workshop-stage-seal{position:absolute;left:17px;top:42px;writing-mode:vertical-rl;letter-spacing:3px;color:#947044;font-size:12px;border-top:1px solid #bba17a;border-bottom:1px solid #bba17a;padding:12px 3px}
+.workshop-canvas{display:block;position:relative;width:100%;height:100%;object-fit:contain;pointer-events:none}
+.workshop-stage-tools{position:absolute;right:7px;bottom:12px;display:grid;gap:7px}
+.workshop-stage-tools button{font-size:10px;min-height:36px;min-width:54px;padding:5px;background:#fbf3e5e8;border:1px solid #baa17c99;border-radius:16px 3px;color:#856443}
+.workshop-pair{text-align:center;font-size:11px;letter-spacing:1px;color:#8b6847;margin-top:8px}
+.workshop-load-state{min-height:23px;text-align:center;color:#9a5b43;font-size:10px}
+.workshop-load-state button{color:#9e382b;text-decoration:underline;min-height:32px;padding:0 7px}
+.workshop-load-state button[hidden]{display:none}
+.workshop-part-section{border-top:1px solid #bea57866;padding-top:13px;margin-top:5px}
+.workshop-part-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:4px}
+.workshop-part-heading h3{font-size:17px;font-weight:500;letter-spacing:2px}
+.workshop-part-heading>span{font-size:10px;color:#9b8669}
+.workshop-part-section>p{font-size:10px;color:#9c8260;margin:0 0 9px}
+.workshop-head-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:8px 0 14px}
+.workshop-part{min-width:0;position:relative;padding:3px 3px 5px;border:1px solid #c7ae8599;border-radius:7px 2px;background:#fff7e75e;transition:background-color .15s,border-color .15s;overflow:hidden}
+.workshop-part.selected{border-color:#a44831;box-shadow:inset 0 0 0 1px #a44831;background:#ead7b895}
+.workshop-part.selected:after{content:'✓';position:absolute;top:0;right:0;width:16px;height:16px;font-size:10px;line-height:16px;background:#a44831;color:#fff6de;border-radius:0 0 0 5px}
+.workshop-part img{display:block;width:100%;height:72px;object-fit:contain}
+.workshop-part>span{display:block;font-size:10px;white-space:nowrap;text-align:center;line-height:1.8;color:#705438}
+.workshop-body-row{display:flex;gap:8px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x proximity;padding:5px 2px 11px;scrollbar-color:#baa17c #eadbc1;scrollbar-width:thin}
+.workshop-body-row>.workshop-part{flex:0 0 75px;scroll-snap-align:start}
+.workshop-body-row .workshop-part img{height:104px}
+.workshop-v4 .craft-name{margin-top:15px;align-items:flex-start;flex-direction:column;gap:6px;font-size:12px}
+.workshop-v4 .craft-name input{width:100%;min-height:42px;border-radius:5px;font-size:16px;background:#fff8ea9c;padding:8px 11px}
+.workshop-v4 .paper-button.wide{min-height:53px;margin:17px 0 10px;font-size:17px;letter-spacing:2px}
+.workshop-v4 .paper-button.wide small{font-size:10px;letter-spacing:1px;margin-top:3px}
+.c-work-image>.workshop-saved-puppet{display:block;width:100%;height:100%;object-fit:contain;mix-blend-mode:normal}
+@media(max-width:360px){.workshop-head-grid{gap:5px}.workshop-part>span{font-size:9px}.workshop-stage{height:314px}.workshop-top button{font-size:10px}}

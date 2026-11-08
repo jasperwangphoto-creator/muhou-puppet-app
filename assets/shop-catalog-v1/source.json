@@ -1,0 +1,398 @@
+{
+  "reference": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\文创-产品分类.png",
+  "pixels": [
+    850,
+    1850
+  ],
+  "sha256": "29d0a10458f84c05fbbd090e634d9d6ae889ce63b3cf4ec0abcaca82860285f4",
+  "sourceUnmodified": true,
+  "excluded": [
+    "System status bar",
+    "Bottom navigation",
+    "Home indicator"
+  ],
+  "assets": [
+    {
+      "file": "product-puppet.png",
+      "crop": [
+        235,
+        564,
+        278,
+        187
+      ],
+      "pixels": [
+        278,
+        187
+      ],
+      "notes": "Original product photo only; excludes names, prices and controls.",
+      "sha256": "733de3060a6a543d51b30a40c98aafcecb80fd9c5c283694de9205e1ed86129a"
+    },
+    {
+      "file": "product-charm.png",
+      "crop": [
+        544,
+        564,
+        273,
+        187
+      ],
+      "pixels": [
+        273,
+        187
+      ],
+      "notes": "Original product photo only; excludes names, prices and controls.",
+      "sha256": "e0ca49a9414fc24026a2e9ca57eea34249e8cf4e0a0a0b6eccc6e2375f0a3fd6"
+    },
+    {
+      "file": "product-frame.png",
+      "crop": [
+        236,
+        896,
+        276,
+        164
+      ],
+      "pixels": [
+        276,
+        164
+      ],
+      "notes": "Original product photo only; excludes names, prices and controls.",
+      "sha256": "f72f6feef048e12f6a625c787bc6b31ac00951b7bffdc44aff6cda1d9ef7fc3d"
+    },
+    {
+      "file": "product-cushion.png",
+      "crop": [
+        544,
+        896,
+        273,
+        164
+      ],
+      "pixels": [
+        273,
+        164
+      ],
+      "notes": "Original product photo only; excludes names, prices and controls.",
+      "sha256": "35630df6aa1fb8bc108b7a9bb7b46256f9d843c22bcea5730832671ebee3ae19"
+    },
+    {
+      "file": "product-fan.png",
+      "crop": [
+        225,
+        1448,
+        137,
+        104
+      ],
+      "pixels": [
+        137,
+        104
+      ],
+      "notes": "Original product photo only; excludes names, prices and controls.",
+      "sha256": "23f792e0d2920578dc1e85cac2a0dbce82086cb7d0eca941695b90598cbca735"
+    },
+    {
+      "file": "product-book.png",
+      "crop": [
+        379,
+        1448,
+        137,
+        104
+      ],
+      "pixels": [
+        137,
+        104
+      ],
+      "notes": "Original product photo only; excludes names, prices and controls.",
+      "sha256": "7ee1f0ed98318a0a6e2e983637fee7e454468d6b5789435f16b1650c1a80bde0"
+    },
+    {
+      "file": "product-box.png",
+      "crop": [
+        533,
+        1448,
+        137,
+        104
+      ],
+      "pixels": [
+        137,
+        104
+      ],
+      "notes": "Original product photo only; excludes names, prices and controls.",
+      "sha256": "4eac42499a425523d8b5822bb6bbb506cf53ddd6d85b2a96fc6d1c740b129a9c"
+    },
+    {
+      "file": "product-mask.png",
+      "crop": [
+        687,
+        1448,
+        135,
+        104
+      ],
+      "pixels": [
+        135,
+        104
+      ],
+      "notes": "Original product photo only; excludes names, prices and controls.",
+      "sha256": "82125bcb71d7f786c259775f6dcf8ad6b7e2e12693cf3af1cca8af3c8e566947"
+    },
+    {
+      "file": "paper.png",
+      "crop": [
+        24,
+        1000,
+        140,
+        620
+      ],
+      "pixels": [
+        280,
+        1240
+      ],
+      "notes": "Original text-free paper mirrored on both axes to remove tile seams; no invented artwork.",
+      "sha256": "fc1542dac1b0d92dc26745b80e52178e6782b1725513f3fdc6d76b22de837e25"
+    },
+    {
+      "file": "header-plum.png",
+      "crop": [
+        632,
+        152,
+        218,
+        59
+      ],
+      "pixels": [
+        218,
+        59
+      ],
+      "notes": "Original plum branches; excludes search/cart controls.",
+      "sha256": "b2b9261547ab4210fd21dedfc0029a33900e7d250131e12c720db9d329bc9ca8"
+    },
+    {
+      "file": "mountains.png",
+      "crop": [
+        0,
+        1639,
+        850,
+        40
+      ],
+      "pixels": [
+        850,
+        40
+      ],
+      "notes": "Original footer mountains; excludes bottom navigation.",
+      "sha256": "5f26bcd490119e49ae4cabef1ed1a1ebba8028e062ac12ac1d51ba8c620102d3"
+    },
+    {
+      "file": "icon-all.png",
+      "crop": [
+        36,
+        491,
+        39,
+        39
+      ],
+      "pixels": [
+        39,
+        39
+      ],
+      "notes": "Original icon silhouette; transparent paper and unified ochre ink.",
+      "sha256": "b1d0d10f5ad9050275e01c3a96d44949952b4282927e48c1d5fbd5d096555449"
+    },
+    {
+      "file": "icon-puppet.png",
+      "crop": [
+        35,
+        572,
+        40,
+        47
+      ],
+      "pixels": [
+        40,
+        47
+      ],
+      "notes": "Original icon silhouette; transparent paper and unified ochre ink.",
+      "sha256": "15a231c5e1b6f4ea1d55c27ece7c0d542ab09f6dc5f7c653154848f3019065ee"
+    },
+    {
+      "file": "icon-lifestyle.png",
+      "crop": [
+        35,
+        658,
+        40,
+        44
+      ],
+      "pixels": [
+        40,
+        44
+      ],
+      "notes": "Original icon silhouette; transparent paper and unified ochre ink.",
+      "sha256": "374efee780d6ab6722e0fd966e0c6460a4c564b8117242fe66a7441f570e956c"
+    },
+    {
+      "file": "icon-accessories.png",
+      "crop": [
+        33,
+        743,
+        43,
+        47
+      ],
+      "pixels": [
+        43,
+        47
+      ],
+      "notes": "Original icon silhouette; transparent paper and unified ochre ink.",
+      "sha256": "ab7b0fa5c636c7f924a3adcab62b561502ea59b312114dc8df154fde8257d49f"
+    },
+    {
+      "file": "icon-new.png",
+      "crop": [
+        33,
+        829,
+        43,
+        47
+      ],
+      "pixels": [
+        43,
+        47
+      ],
+      "notes": "Original icon silhouette; transparent paper and unified ochre ink.",
+      "sha256": "da095fc095ebdcc7154d770481dec88f65e96d894c79e8fd547cca942a82a60b"
+    },
+    {
+      "file": "icon-bestsellers.png",
+      "crop": [
+        34,
+        913,
+        42,
+        47
+      ],
+      "pixels": [
+        42,
+        47
+      ],
+      "notes": "Original icon silhouette; transparent paper and unified ochre ink.",
+      "sha256": "09d568ea96fb74fb2bb5eeaef81f19c4eb04c50ae5549d65edffe365992b81a0"
+    },
+    {
+      "file": "hero.png",
+      "crop": [
+        27,
+        211,
+        796,
+        227
+      ],
+      "pixels": [
+        796,
+        227
+      ],
+      "notes": "Original red/gold frame, puppet and empty CTA plaque; title, subtitle and CTA rendered in HTML.",
+      "sha256": "d36936ee6595050d99d91477f31cedb23c950c68d4d5faa58b92e1ed5231b941"
+    },
+    {
+      "file": "selected-plaque.png",
+      "crop": [
+        17,
+        553,
+        190,
+        83
+      ],
+      "pixels": [
+        190,
+        83
+      ],
+      "notes": "Original selected-category plaque; icon and label rendered separately.",
+      "sha256": "45a9e27fbf95c369b5d7add9ff3abcbd09c0306a16c4c8be3d26a197e7990fb3"
+    },
+    {
+      "file": "collaboration.png",
+      "crop": [
+        223,
+        1203,
+        600,
+        170
+      ],
+      "pixels": [
+        600,
+        170
+      ],
+      "notes": "Original framed paper, tote bag, landscape and empty green CTA plaque; copy is HTML.",
+      "sha256": "3333897dd8299b7b2921438d2a0e2fa3fdf719f71a771a1f6b021822031bc92a"
+    }
+  ],
+  "repairs": [
+    {
+      "rect": [
+        73,
+        254,
+        421,
+        54
+      ],
+      "lightLetters": true,
+      "method": "Masked neighbour diffusion; original text becomes live HTML."
+    },
+    {
+      "rect": [
+        84,
+        312,
+        306,
+        36
+      ],
+      "lightLetters": true,
+      "method": "Masked neighbour diffusion; original text becomes live HTML."
+    },
+    {
+      "rect": [
+        107,
+        372,
+        122,
+        26
+      ],
+      "lightLetters": true,
+      "method": "Masked neighbour diffusion; original text becomes live HTML."
+    },
+    {
+      "rect": [
+        33,
+        568,
+        152,
+        52
+      ],
+      "lightLetters": true,
+      "method": "Masked neighbour diffusion; original text becomes live HTML."
+    },
+    {
+      "rect": [
+        270,
+        1231,
+        218,
+        39
+      ],
+      "lightLetters": false,
+      "method": "Masked neighbour diffusion; original text becomes live HTML."
+    },
+    {
+      "rect": [
+        234,
+        1224,
+        42,
+        47
+      ],
+      "lightLetters": false,
+      "method": "Masked neighbour diffusion; original text becomes live HTML."
+    },
+    {
+      "rect": [
+        271,
+        1277,
+        246,
+        28
+      ],
+      "lightLetters": false,
+      "method": "Masked neighbour diffusion; original text becomes live HTML."
+    },
+    {
+      "rect": [
+        281,
+        1317,
+        90,
+        24
+      ],
+      "lightLetters": true,
+      "method": "Masked neighbour diffusion; original text becomes live HTML."
+    }
+  ]
+}

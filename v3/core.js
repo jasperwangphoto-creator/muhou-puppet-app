@@ -1,0 +1,25 @@
+export const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+export const uid = () => globalThis.crypto?.randomUUID?.() || `${Date.now().toString(36)}-${Math.random().toString(36).slice(2)}`;
+export const art = name => `./assets/v3-art/${name}`;
+export const icon = (name) => `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${{search:'M21 21l-6-6M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0',scan:'M3 9V4a1 1 0 0 1 1-1h5m6 0h5a1 1 0 0 1 1 1v5m0 6v5a1 1 0 0 1-1 1h-5m-6 0H4a1 1 0 0 1-1-1v-5M3 12h18',clock:'M12 8v5l3 2M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0',pin:'M12 22s8-8 8-14a8 8 0 0 0-16 0c0 6 8 14 8 14ZM15 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0',back:'m15 4-8 8 8 8',heart:'M12 21 3 12C-3 4 7-1 12 6 17-1 27 4 21 12Z',play:'m8 4 12 8-12 8Z',close:'m5 5 14 14M5 19 19 5',share:'M12 16V2m-5 5 5-5 5 5M5 11H3v10h18V11h-2',bag:'M5 7h14l2 14H3ZM8 7V5a4 4 0 0 1 8 0v2',star:'m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z',arrow:'M3 12h17m-6-6 6 6-6 6'}[name] || 'M4 12h16'}"/></svg>`;
+export const button = (label,to,cls='') => `<button class="paper-button ${cls}" data-go="${esc(to)}">${label}<span aria-hidden="true"> →</span></button>`;
+export const section = (title,to='',more='查看更多') => `<div class="section-title"><h2><span aria-hidden="true">❁</span> ${title}</h2>${to?`<button class="text-button" data-go="${esc(to)}">${more} →</button>`:''}</div>`;
+export function title(name,sub='',back='') { return `<header class="inner-title">${back?`<button class="round-back" data-go="${esc(back)}" aria-label="返回">${icon('back')}</button>`:''}<div><h1>${name}<small class="seal">非遗</small></h1>${sub?`<p>${sub}</p>`:''}</div></header>`; }
+export const plays = [
+ {id:'ginkgo',name:'银杏仙子',image:'product',role:'旦角',duration:45,character:2,summary:'循着一片银杏叶，走进一场关于相逢与守护的木偶故事。',chapters:[['初遇人间','观察角色的视线、亮相与细小的颔首。'],['情定银杏','从抬手和水袖的节奏中，感受人物的情绪。'],['仙踪再现','留意角色转向与台步之间的协调。']]},
+ {id:'sancha',name:'三岔口',image:'duet',role:'武戏',duration:28,character:1,summary:'灯影之中，一进一退，以身段讲述误会与相逢。',chapters:[['暗夜相逢','观察人物如何通过动作表现黑夜。'],['试探交锋','留意双人对打的节奏与配合。'],['释疑收势','在协调与收势中结束这一场相逢。']]},
+ {id:'nvfuma',name:'女驸马',image:'play-red',role:'旦角',duration:35,character:2,summary:'凤冠霞帔，眉眼传情。通过经典人物造型认识木偶的服饰与身段。',chapters:[['人物登场','从头饰和服饰认识角色身份。'],['婉转传情','看低头与抬手如何传达情绪。'],['风华再现','体会水袖动作柔和的节奏。']]},
+ {id:'baigujing',name:'三打白骨精',image:'play-warrior',role:'武生',duration:42,character:1,summary:'神话故事走上木偶戏台，在一招一式中体会造型与动作的想象力。',chapters:[['神话入戏','留意鲜明的面部彩绘。'],['身段交锋','观察武戏动作之间的连接。'],['亮相谢幕','体会登场与收势的节奏。']]},
+ {id:'muguiying',name:'穆桂英挂帅',image:'play-blue',role:'巾帼',duration:38,character:7,summary:'一身戎装，英姿飒爽。小小木偶以台步与亮相演绎气度。',chapters:[['披挂登场','观察服饰纹样与人物气度。'],['整装出征','留意转身与抬手的力度。'],['巾帼风华','用稳健的台步呈现人物。']]},
+ {id:'tianguan',name:'天官赐福',image:'play-gold',role:'吉祥雅戏',duration:18,character:4,summary:'以吉祥的人物造型和稳重的步伐，展开一场美好祝愿。',chapters:[['福满戏台','认识造型中的吉祥意象。'],['稳步送福','留意木偶主体的稳定。'],['迎福谢幕','观察动作与服饰的相互呼应。']]},
+ {id:'huahaoyueyuan',name:'花好月圆',image:'duet',artwork:'./assets/theatre-home-v2/play-huahaoyueyuan.png',role:'双人对戏',duration:30,character:2,summary:'观看你提供的《花好月圆》演出视频，感受木偶戏的身段与舞台表现。下方内容为动作观察导览示例。',chapters:[['双偶相逢','观察两位角色的视线如何相互回应。'],['手势传情','留意扇子、水袖与手部动作之间的配合。'],['花好月圆','尝试用转向、颔首与收势完成一段对戏。']]},
+ {id:'jiangtaigong',name:'姜太公钓鱼',image:'play-gold',artwork:'./assets/theatre-home-v2/play-jiangtaigong.png',role:'神话 | 传说',duration:25,character:0,summary:'从参考图中的白须木偶认识角色造型，观察沉稳的姿态与细小的动作。以下内容为学习导览示例。',chapters:[['白须造型','留意头饰、长须与衣纹塑造的人物神态。'],['静中有动','观察颔首和抬手如何让安静的姿态生动起来。'],['稳步收势','练习稳定头身，再缓慢完成转向。']]},
+ {id:'hongse',name:'红色娘子军',image:'play-red',artwork:'./assets/theatre-home-v2/play-hongse.png',role:'现代 | 革命',duration:30,character:1,summary:'从参考图中的现代服饰木偶出发，观察挺拔的站姿与利落的动作。以下内容为学习导览示例。',chapters:[['人物亮相','观察服装与站姿如何提示人物形象。'],['动作节奏','留意抬手、转身与台步的衔接。'],['整齐收势','尝试用清楚的起势和收势完成一段动作。']]},
+ {id:'shajiabang',name:'沙家浜',image:'play-blue',artwork:'./assets/theatre-home-v2/play-shajiabang.png',role:'现代 | 革命',duration:30,character:0,summary:'从参考图中的深色服饰木偶认识人物造型，体会视线、手势与身段的关系。以下内容为学习导览示例。',chapters:[['造型观察','观察头饰、服装和面部神态。'],['视线回应','尝试通过颔首与转向传达人物的注意方向。'],['身段衔接','练习从亮相自然过渡到台步与收势。']]}
+];
+export function playImage(p){return p.artwork || (p.id==='ginkgo'?'./assets/v3-content/product-main.webp':`./assets/${p.image}.jpg`);}
+export const CULTURE = [
+ ['origin','起源与历史','从一方戏台开始，认识木偶的角色、服饰与操偶方式。'],['art','艺术特色','眉眼、头冠与衣纹，一起塑造戏台上的人物。'],['performance','表演形式','主杖与手杖协调，让视线、双手和台步组成动作。'],['value','文化价值','从观看到亲手练习，让传统手艺被更多人看见。']
+];
+export function initialState(){return {version:3,favorites:[],wishlist:[],cartLines:[],demoOrders:[],works:[],lessons:[],achievementClaims:[],inheritorFavorites:[],backstageVisits:[],explored:false,craftDraft:null,activeWorkId:null};}
+export function loadState(){const fresh=initialState();try{const raw=JSON.parse(localStorage.getItem('muhou-app-v3')||'null');if(raw&&raw.version===3){for(const k of Object.keys(fresh)){if(Array.isArray(fresh[k]))fresh[k]=Array.isArray(raw[k])?raw[k]:[];else if(k!=='version')fresh[k]=raw[k]??fresh[k];}}}catch{fresh.recovered=true;}return fresh;}

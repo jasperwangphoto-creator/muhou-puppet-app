@@ -1,0 +1,114 @@
+[
+  {
+    "id": 0,
+    "name": "蓝衣生角",
+    "file": "puppet-0.png",
+    "source": "../木偶形象/八位戏曲木偶角色透明图集-2.png",
+    "sourceBounds": [
+      30,
+      24,
+      279,
+      589
+    ],
+    "extraction": "Source RGBA preserved; large alpha components with 2px edge inclusion; top/right touching pair split at source y=610",
+    "readyForArticulation": false
+  },
+  {
+    "id": 1,
+    "name": "武生",
+    "file": "puppet-1.png",
+    "source": "../木偶形象/八位戏曲木偶角色透明图集-2.png",
+    "sourceBounds": [
+      319,
+      2,
+      355,
+      616
+    ],
+    "extraction": "Source RGBA preserved; large alpha components with 2px edge inclusion; top/right touching pair split at source y=610",
+    "readyForArticulation": false
+  },
+  {
+    "id": 2,
+    "name": "粉衣旦角",
+    "file": "puppet-2.png",
+    "source": "../木偶形象/八位戏曲木偶角色透明图集-2.png",
+    "sourceBounds": [
+      610,
+      19,
+      325,
+      602
+    ],
+    "extraction": "Source RGBA preserved; large alpha components with 2px edge inclusion; top/right touching pair split at source y=610",
+    "readyForArticulation": false
+  },
+  {
+    "id": 3,
+    "name": "黑衣丑角",
+    "file": "puppet-3.png",
+    "source": "../木偶形象/八位戏曲木偶角色透明图集-2.png",
+    "sourceBounds": [
+      951,
+      53,
+      286,
+      567
+    ],
+    "extraction": "Source RGBA preserved; large alpha components with 2px edge inclusion; top/right touching pair split at source y=610",
+    "readyForArticulation": false
+  },
+  {
+    "id": 4,
+    "name": "黑金包公",
+    "file": "puppet-4.png",
+    "source": "../木偶形象/八位戏曲木偶角色透明图集-2.png",
+    "sourceBounds": [
+      40,
+      605,
+      291,
+      583
+    ],
+    "extraction": "Source RGBA preserved; large alpha components with 2px edge inclusion; top/right touching pair split at source y=610",
+    "readyForArticulation": false
+  },
+  {
+    "id": 5,
+    "name": "浅色嫦娥",
+    "file": "puppet-5.png",
+    "source": "../木偶形象/八位戏曲木偶角色透明图集-2.png",
+    "sourceBounds": [
+      340,
+      594,
+      362,
+      588
+    ],
+    "extraction": "Source RGBA preserved; large alpha components with 2px edge inclusion; top/right touching pair split at source y=610",
+    "readyForArticulation": false
+  },
+  {
+    "id": 6,
+    "name": "红黑白骨精",
+    "file": "puppet-6.png",
+    "source": "../木偶形象/八位戏曲木偶角色透明图集-2.png",
+    "sourceBounds": [
+      688,
+      601,
+      328,
+      573
+    ],
+    "extraction": "Source RGBA preserved; large alpha components with 2px edge inclusion; top/right touching pair split at source y=610",
+    "readyForArticulation": false
+  },
+  {
+    "id": 7,
+    "name": "红绿铁扇公主",
+    "file": "puppet-7.png",
+    "source": "../木偶形象/八位戏曲木偶角色透明图集-2.png",
+    "sourceBounds": [
+      1000,
+      602,
+      301,
+      579
+    ],
+    "extraction": "Source RGBA preserved; large alpha components with 2px edge inclusion; top/right touching pair split at source y=610",
+    "readyForArticulation": false
+  }
+]

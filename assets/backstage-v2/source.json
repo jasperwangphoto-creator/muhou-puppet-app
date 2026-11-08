@@ -1,0 +1,98 @@
+{
+  "preparedAt": "2026-10-30T09:59:50.848Z",
+  "policy": "Deterministic crops only; no generated documentary material. Render all copy and controls as HTML.",
+  "photoSourcePage": "https://ich.nlc.cn/detail/6012",
+  "assets": [
+    {
+      "file": "hua-meixia-stage.webp",
+      "source": "https://ich.nlc.cn/resource/2026/49d2fb15.jpg",
+      "crop": [
+        0,
+        0,
+        980,
+        656
+      ],
+      "notes": "Unaltered National Library archival stage photo of Hua Meixia. Full composition retained.",
+      "sourceSha256": "d0a2218eaf6797dd4965c7f5a17b99767f2b857987c6c54733988d8040f090a5",
+      "sha256": "6ea549f9e496c762940dd0ddae1dc45d9e606d471f59513b62a8558effdb19c7"
+    },
+    {
+      "file": "hua-meixia-upright.webp",
+      "source": "https://ich.nlc.cn/resource/2026/49d2fb15.jpg",
+      "crop": [
+        325,
+        15,
+        365,
+        620
+      ],
+      "notes": "Crop retains the real performer, puppet and rods; no generated portrait, face replacement or background replacement.",
+      "sourceSha256": "d0a2218eaf6797dd4965c7f5a17b99767f2b857987c6c54733988d8040f090a5",
+      "sha256": "406a1054c46c7727ee61119b2acbdf3a994381d3ebd3166b786cda1a18d7111b"
+    },
+    {
+      "file": "rehearsal-room.webp",
+      "source": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\幕后-后台探索2.png",
+      "crop": [
+        375,
+        548,
+        437,
+        278
+      ],
+      "notes": "Illustrative rehearsal room from the supplied reference. Excludes printed headings, controls, status and navigation bars.",
+      "sourceSha256": "ef5c3c99df8eb84ca65873093084ce356ca710eca1be3fc18538ecb015b330bd",
+      "sha256": "9281b80e5a63bae81e4f732edd6f63bdf2749425f28301252ad7b28f35deb00c"
+    },
+    {
+      "file": "ink-landscape.webp",
+      "source": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\幕后-传承人故事2.png",
+      "crop": [
+        0,
+        1710,
+        852,
+        136
+      ],
+      "notes": "Wordless ink landscape and paper from the supplied footer; no human figure.",
+      "sourceSha256": "5026773694505f1f863bf60813db893b53ff5a41b604b6d9bfca91606617b87f",
+      "sha256": "7085dc68e7f4bd90a5c81a7c423df01189df2e55fd797c804a2143970daf6f45"
+    },
+    {
+      "file": "theme-home.webp",
+      "source": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\幕后2.png",
+      "crop": [
+        390,
+        130,
+        462,
+        337
+      ],
+      "notes": "Supplied thematic illustration, not a verified portrait of Hua Meixia. Crop excludes all printed copy and controls.",
+      "sourceSha256": "73e583ae3d160c09433d503f8738b5cf0ef0701f8dba3d0c7aa988d75daca05a",
+      "sha256": "d00f56014bbe6ae60e49af42f50ab8eee065f6db2bdacbf858298ce038de06f0"
+    },
+    {
+      "file": "theme-explore.webp",
+      "source": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\幕后-后台探索2.png",
+      "crop": [
+        375,
+        150,
+        477,
+        365
+      ],
+      "notes": "Supplied thematic illustration for the exploration header; not documentary material.",
+      "sourceSha256": "ef5c3c99df8eb84ca65873093084ce356ca710eca1be3fc18538ecb015b330bd",
+      "sha256": "0b43a4be2f26147460622292e6c7c6826a39a75a68a70921f27e6f68b9ed4d7e"
+    },
+    {
+      "file": "plum-corner.webp",
+      "source": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\幕后-传承人故事2.png",
+      "crop": [
+        0,
+        0,
+        100,
+        142
+      ],
+      "notes": "Wordless plum branch from the reference corner, cropped clear of the system clock.",
+      "sourceSha256": "5026773694505f1f863bf60813db893b53ff5a41b604b6d9bfca91606617b87f",
+      "sha256": "4e0c3c23292aad53557f7911f555f08c945ae5868989a7e20294e68dc09a2ebb"
+    }
+  ]
+}

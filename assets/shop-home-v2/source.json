@@ -1,0 +1,363 @@
+{
+  "version": 2,
+  "reference": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\文创-首页2.png",
+  "pixels": [
+    852,
+    1846
+  ],
+  "sha256": "59d9e8a3ab17b8bce5d1e7c888271564aa3d9da09af5e296f170b8c789b1af73",
+  "sourceUnmodified": true,
+  "excluded": [
+    "System status bar",
+    "Bottom navigation",
+    "Home indicator"
+  ],
+  "logicalWidth": 393,
+  "implementation": "Separate local art regions with semantic HTML text, prices, buttons and live state; no full-page background or transparent hotspots.",
+  "assets": [
+    {
+      "file": "header.png",
+      "crop": [
+        0,
+        84,
+        852,
+        253
+      ],
+      "pixels": [
+        852,
+        253
+      ],
+      "notes": "System status bar excluded. Original calligraphic title/seal retained. Subtitle, icons and live cart count are HTML.",
+      "sha256": "15073ba7dcb5388f6ebafe7423dd6a4f7b51eca6994dd64b6cf1996349f345bc"
+    },
+    {
+      "file": "new-arrivals.png",
+      "crop": [
+        28,
+        334,
+        798,
+        298
+      ],
+      "pixels": [
+        798,
+        298
+      ],
+      "notes": "Original banner art, empty plaque and red button texture. Title, subtitle and CTA are real elements.",
+      "sha256": "dd3fbfe3ca02a9764fa681bce255dc042cf24b2a16d22ad568e4ac1ccc4aa762"
+    },
+    {
+      "file": "section-flower.png",
+      "crop": [
+        28,
+        670,
+        44,
+        44
+      ],
+      "pixels": [
+        44,
+        44
+      ],
+      "notes": "Original ochre decorative section ornament.",
+      "sha256": "20ce8f0d5bf9be342833f05ba2100e3d35e0d7e841dc464360fab577344f1880"
+    },
+    {
+      "file": "product-puppet.png",
+      "crop": [
+        31,
+        729,
+        195,
+        184
+      ],
+      "pixels": [
+        195,
+        184
+      ],
+      "notes": "Product image only, excludes name, description, price and bag button.",
+      "sha256": "643854638073c53f293034f2238b791a7f711aa8ca4c4c5cc98996a0ac41a43f"
+    },
+    {
+      "file": "product-plush.png",
+      "crop": [
+        245,
+        729,
+        193,
+        184
+      ],
+      "pixels": [
+        193,
+        184
+      ],
+      "notes": "Plush image only; new-product label is a real element.",
+      "sha256": "0dd68228099c1e813cc24c3a2f346e8359ccda54faacfdf5b15583f50ce11814"
+    },
+    {
+      "file": "product-charm.png",
+      "crop": [
+        458,
+        729,
+        182,
+        184
+      ],
+      "pixels": [
+        182,
+        184
+      ],
+      "notes": "Pendant image only; bestseller label is a real element.",
+      "sha256": "9cd5cccb7e5e46d916ab26291a0f7a52ea9f4b9ae6adf64f889d2ab3ef00b4a1"
+    },
+    {
+      "file": "product-book.png",
+      "crop": [
+        659,
+        729,
+        165,
+        184
+      ],
+      "pixels": [
+        165,
+        184
+      ],
+      "notes": "Notebook image only.",
+      "sha256": "6c44e8d7f173bcb46dedd32ca7347a6f4418394f6c1ed1a73cd0816ca76097b1"
+    },
+    {
+      "file": "category-paper.png",
+      "pixels": [
+        795,
+        256
+      ],
+      "notes": "Original left floral paper, lettering removed, original empty green paper extended across the panel. No enlarged strips, baked category images or labels.",
+      "sha256": "02cc616ca5e681088bcd1595f09073228b65bed562373cbcdaa0cce24dc9d069"
+    },
+    {
+      "file": "category-puppet.png",
+      "crop": [
+        281,
+        1065,
+        124,
+        150
+      ],
+      "pixels": [
+        124,
+        150
+      ],
+      "notes": "Category image only; its label and link are HTML.",
+      "sha256": "37ad56e0f27a4cdc26a106dae3b1c67a3ccafdeee156fec6b4812e51eb025f17"
+    },
+    {
+      "file": "category-plush.png",
+      "crop": [
+        419,
+        1065,
+        130,
+        150
+      ],
+      "pixels": [
+        130,
+        150
+      ],
+      "notes": "Category image only; its label and link are HTML.",
+      "sha256": "9b00f1074a8f7a02041aa6b9fcb431410504455beaf4c0b1e554ae8158d45744"
+    },
+    {
+      "file": "category-charm.png",
+      "crop": [
+        563,
+        1065,
+        121,
+        150
+      ],
+      "pixels": [
+        121,
+        150
+      ],
+      "notes": "Category image only; its label and link are HTML.",
+      "sha256": "006ec2e9a0646041c12e41e98fbe0872dc97ef97e0cc49b44056db8cf652f9f6"
+    },
+    {
+      "file": "category-bag.png",
+      "crop": [
+        698,
+        1065,
+        114,
+        150
+      ],
+      "pixels": [
+        114,
+        150
+      ],
+      "notes": "Category image only; its label and link are HTML.",
+      "sha256": "501f1375bc1d8d0c178d146ab9e4973dfd05e6b597b73eb69f947af85b59c24e"
+    },
+    {
+      "file": "design-story.png",
+      "crop": [
+        28,
+        1385,
+        798,
+        217
+      ],
+      "pixels": [
+        798,
+        217
+      ],
+      "notes": "Original artisan scene, brush edges, plum branches and blank CTA plaque. All copy is HTML.",
+      "sha256": "0e7d786700d840a268f2e2da49260bf5df9e472526e89ecf08d10d0ada9b25f2"
+    },
+    {
+      "file": "paper.png",
+      "crop": [
+        32,
+        1015,
+        790,
+        22
+      ],
+      "pixels": [
+        790,
+        22
+      ],
+      "notes": "Text-free paper separating recommendations and category panel.",
+      "sha256": "56bde41f67b630da46c918c8995ce497fb21fa2f211c914b0ac0bb1d54d557ad"
+    }
+  ],
+  "repairs": [
+    {
+      "name": "header subtitle",
+      "rect": [
+        42,
+        248,
+        378,
+        39
+      ],
+      "method": "Masked local neighbor diffusion of printed letters; surrounding source pixels retained",
+      "mode": "dark"
+    },
+    {
+      "name": "search, cart and sample count",
+      "rect": [
+        700,
+        110,
+        134,
+        64
+      ],
+      "method": "Masked local neighbor diffusion of printed letters; surrounding source pixels retained",
+      "mode": "dark"
+    },
+    {
+      "name": "banner heading",
+      "rect": [
+        99,
+        405,
+        300,
+        45
+      ],
+      "method": "Masked local neighbor diffusion of printed letters; surrounding source pixels retained",
+      "mode": "dark"
+    },
+    {
+      "name": "banner subtitle",
+      "rect": [
+        101,
+        456,
+        260,
+        31
+      ],
+      "method": "Masked local neighbor diffusion of printed letters; surrounding source pixels retained",
+      "mode": "dark"
+    },
+    {
+      "name": "banner button label and arrow",
+      "rect": [
+        115,
+        525,
+        123,
+        33
+      ],
+      "method": "Masked local neighbor diffusion of printed letters; surrounding source pixels retained",
+      "mode": "light"
+    },
+    {
+      "name": "plush product badge, rendered as HTML",
+      "rect": [
+        249,
+        731,
+        57,
+        34
+      ],
+      "sample": [
+        248,
+        783
+      ],
+      "method": "Feathered clone of adjacent text-free source texture"
+    },
+    {
+      "name": "charm product badge, rendered as HTML",
+      "rect": [
+        460,
+        731,
+        57,
+        34
+      ],
+      "sample": [
+        462,
+        805
+      ],
+      "method": "Feathered clone of adjacent text-free source texture"
+    },
+    {
+      "name": "category title",
+      "rect": [
+        69,
+        1077,
+        173,
+        51
+      ],
+      "method": "Masked local neighbor diffusion of printed letters; surrounding source pixels retained",
+      "mode": "dark"
+    },
+    {
+      "name": "category introduction",
+      "rect": [
+        73,
+        1131,
+        148,
+        64
+      ],
+      "method": "Masked local neighbor diffusion of printed letters; surrounding source pixels retained",
+      "mode": "dark"
+    },
+    {
+      "name": "design heading",
+      "rect": [
+        70,
+        1446,
+        318,
+        34
+      ],
+      "method": "Masked local neighbor diffusion of printed letters; surrounding source pixels retained",
+      "mode": "light"
+    },
+    {
+      "name": "design subtitle",
+      "rect": [
+        70,
+        1491,
+        221,
+        26
+      ],
+      "method": "Masked local neighbor diffusion of printed letters; surrounding source pixels retained",
+      "mode": "light"
+    },
+    {
+      "name": "design button label and arrow",
+      "rect": [
+        655,
+        1480,
+        113,
+        31
+      ],
+      "method": "Masked local neighbor diffusion of printed letters; surrounding source pixels retained",
+      "mode": "dark"
+    }
+  ]
+}

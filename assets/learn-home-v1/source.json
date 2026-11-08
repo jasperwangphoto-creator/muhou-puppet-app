@@ -1,0 +1,514 @@
+{
+  "version": 1,
+  "reference": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\学艺-首页.png",
+  "referencePixels": [
+    852,
+    1846
+  ],
+  "sourceUnmodified": true,
+  "logicalWidth": 393,
+  "scale": 0.4612676056338028,
+  "bottomNavigation": "Not cropped, edited, or changed.",
+  "assets": [
+    {
+      "file": "hero.png",
+      "crop": [
+        0,
+        90,
+        852,
+        400
+      ],
+      "notes": "Exact source crop. No old rectangle patch, system status bar, path row or bottom navigation."
+    },
+    {
+      "file": "path-1.png",
+      "crop": [
+        128,
+        514,
+        106,
+        121
+      ],
+      "notes": "Original paper circle, glyph and badge; Chinese label excluded. Paper outside the circular silhouette is made transparent; source circle is normalized to 104px visible width in a common 112x120 canvas. Do not draw duplicate DOM numbers.",
+      "containsNumberBadge": true,
+      "canvas": [
+        112,
+        120
+      ],
+      "visibleCircleWidth": 104,
+      "transparentPadding": {
+        "left": 4,
+        "right": 4,
+        "top": 1
+      },
+      "recommendedCssCircleSize": 48,
+      "recommendedCssImageWidth": 51.69230769230769,
+      "recommendedCssImageHeight": 55.38461538461539,
+      "glyphSourceBounds": [
+        162,
+        536,
+        40,
+        55
+      ],
+      "estimatedCssGlyphHeight": 25.88235294117647
+    },
+    {
+      "file": "path-2.png",
+      "crop": [
+        281,
+        516,
+        106,
+        120
+      ],
+      "notes": "Original paper circle, glyph and badge; Chinese label excluded. Paper outside the circular silhouette is made transparent; source circle is normalized to 104px visible width in a common 112x120 canvas. Do not draw duplicate DOM numbers.",
+      "containsNumberBadge": true,
+      "canvas": [
+        112,
+        120
+      ],
+      "visibleCircleWidth": 104,
+      "transparentPadding": {
+        "left": 4,
+        "right": 4,
+        "top": 1
+      },
+      "recommendedCssCircleSize": 48,
+      "recommendedCssImageWidth": 51.69230769230769,
+      "recommendedCssImageHeight": 55.38461538461539,
+      "glyphSourceBounds": [
+        310,
+        543,
+        47,
+        50
+      ],
+      "estimatedCssGlyphHeight": 23.529411764705884
+    },
+    {
+      "file": "path-3.png",
+      "crop": [
+        434,
+        520,
+        102,
+        116
+      ],
+      "notes": "Original paper circle, glyph and badge; Chinese label excluded. Paper outside the circular silhouette is made transparent; source circle is normalized to 104px visible width in a common 112x120 canvas. Do not draw duplicate DOM numbers.",
+      "containsNumberBadge": true,
+      "canvas": [
+        112,
+        120
+      ],
+      "visibleCircleWidth": 104,
+      "transparentPadding": {
+        "left": 4,
+        "right": 4,
+        "top": 1
+      },
+      "recommendedCssCircleSize": 48,
+      "recommendedCssImageWidth": 51.69230769230769,
+      "recommendedCssImageHeight": 55.38461538461539,
+      "glyphSourceBounds": [
+        457,
+        544,
+        55,
+        53
+      ],
+      "estimatedCssGlyphHeight": 25.959183673469386
+    },
+    {
+      "file": "path-4.png",
+      "crop": [
+        583,
+        521,
+        103,
+        115
+      ],
+      "notes": "Original paper circle, glyph and badge; Chinese label excluded. Paper outside the circular silhouette is made transparent; source circle is normalized to 104px visible width in a common 112x120 canvas. Do not draw duplicate DOM numbers.",
+      "containsNumberBadge": true,
+      "canvas": [
+        112,
+        120
+      ],
+      "visibleCircleWidth": 104,
+      "transparentPadding": {
+        "left": 4,
+        "right": 4,
+        "top": 1
+      },
+      "recommendedCssCircleSize": 48,
+      "recommendedCssImageWidth": 51.69230769230769,
+      "recommendedCssImageHeight": 55.38461538461539,
+      "glyphSourceBounds": [
+        611,
+        545,
+        47,
+        52
+      ],
+      "estimatedCssGlyphHeight": 25.21212121212121
+    },
+    {
+      "file": "path-5.png",
+      "crop": [
+        720,
+        517,
+        113,
+        119
+      ],
+      "notes": "Original paper circle, glyph and badge; Chinese label excluded. Paper outside the circular silhouette is made transparent; source circle is normalized to 104px visible width in a common 112x120 canvas. Do not draw duplicate DOM numbers.",
+      "containsNumberBadge": true,
+      "canvas": [
+        112,
+        120
+      ],
+      "visibleCircleWidth": 104,
+      "transparentPadding": {
+        "left": 4,
+        "right": 4,
+        "top": 1
+      },
+      "recommendedCssCircleSize": 48,
+      "recommendedCssImageWidth": 51.69230769230769,
+      "recommendedCssImageHeight": 55.38461538461539,
+      "glyphSourceBounds": [
+        744,
+        542,
+        56,
+        51
+      ],
+      "estimatedCssGlyphHeight": 22.458715596330276
+    },
+    {
+      "file": "path-arrow.png",
+      "crop": [
+        248,
+        569,
+        20,
+        29
+      ],
+      "notes": "Original small connector chevron; surrounding paper removed with a chroma mask."
+    },
+    {
+      "file": "path-scenery.png",
+      "crop": [
+        0,
+        700,
+        852,
+        56
+      ],
+      "notes": "Wordless original landscape transition; includes original lower tassel tip at the left, aligned to source coordinates."
+    },
+    {
+      "file": "closing-scenery.png",
+      "crop": [
+        0,
+        1545,
+        852,
+        65
+      ],
+      "notes": "Wordless original mountain transition below the challenge panel, above bottom navigation."
+    },
+    {
+      "file": "path-ribbon.png",
+      "crop": [
+        40,
+        486,
+        62,
+        240
+      ],
+      "notes": "Static learning-path calligraphy and tassel only."
+    },
+    {
+      "file": "course-1.png",
+      "crop": [
+        31,
+        756,
+        273,
+        464
+      ],
+      "notes": "Original red ink border and puppet photo preserved; printed heading, description and arrow locally repaired."
+    },
+    {
+      "file": "course-2.png",
+      "crop": [
+        317,
+        778,
+        263,
+        466
+      ],
+      "notes": "Original green ink border and craft photo preserved; printed heading, description and arrow locally repaired."
+    },
+    {
+      "file": "course-3.png",
+      "crop": [
+        587,
+        756,
+        249,
+        493
+      ],
+      "notes": "Original blue ink border and puppet photo preserved; printed heading, description and arrow locally repaired."
+    },
+    {
+      "file": "challenge-panel.png",
+      "crop": [
+        29,
+        1244,
+        806,
+        301
+      ],
+      "notes": "Left static red calligraphy ribbon and right pavilion preserved. Heading, paragraph and original button removed for real HTML controls."
+    }
+  ],
+  "repairs": [
+    {
+      "name": "course-1 title and rule",
+      "method": "Same-row matching-color original ink/paper samples, robust median to exclude printed letters/photos; subtle source texture grain and 7-row continuity. No repeated strips or motif synthesis.",
+      "sourceRect": [
+        54,
+        841,
+        190,
+        71
+      ],
+      "sampleRect": [
+        99,
+        820,
+        151,
+        29
+      ],
+      "horizontalSampleSpan": [
+        40,
+        298
+      ],
+      "feather": 7
+    },
+    {
+      "name": "course-1 description",
+      "method": "Same-row matching-color original ink/paper samples, robust median to exclude printed letters/photos; subtle source texture grain and 7-row continuity. No repeated strips or motif synthesis.",
+      "sourceRect": [
+        56,
+        907,
+        184,
+        63
+      ],
+      "sampleRect": [
+        99,
+        820,
+        151,
+        29
+      ],
+      "horizontalSampleSpan": [
+        40,
+        298
+      ],
+      "feather": 7
+    },
+    {
+      "name": "course-1 arrow",
+      "method": "Same-row matching-color original ink/paper samples, robust median to exclude printed letters/photos; subtle source texture grain and 7-row continuity. No repeated strips or motif synthesis.",
+      "sourceRect": [
+        53,
+        974,
+        52,
+        56
+      ],
+      "sampleRect": [
+        99,
+        820,
+        151,
+        29
+      ],
+      "horizontalSampleSpan": [
+        40,
+        298
+      ],
+      "feather": 7
+    },
+    {
+      "name": "course-2 title and rule",
+      "method": "Same-row matching-color original ink/paper samples, robust median to exclude printed letters/photos; subtle source texture grain and 7-row continuity. No repeated strips or motif synthesis.",
+      "sourceRect": [
+        340,
+        843,
+        176,
+        66
+      ],
+      "sampleRect": [
+        350,
+        1015,
+        45,
+        20
+      ],
+      "horizontalSampleSpan": [
+        320,
+        573
+      ],
+      "feather": 7
+    },
+    {
+      "name": "course-2 description",
+      "method": "Same-row matching-color original ink/paper samples, robust median to exclude printed letters/photos; subtle source texture grain and 7-row continuity. No repeated strips or motif synthesis.",
+      "sourceRect": [
+        340,
+        905,
+        167,
+        64
+      ],
+      "sampleRect": [
+        350,
+        1015,
+        45,
+        20
+      ],
+      "horizontalSampleSpan": [
+        320,
+        573
+      ],
+      "feather": 7
+    },
+    {
+      "name": "course-2 arrow",
+      "method": "Same-row matching-color original ink/paper samples, robust median to exclude printed letters/photos; subtle source texture grain and 7-row continuity. No repeated strips or motif synthesis.",
+      "sourceRect": [
+        340,
+        970,
+        52,
+        54
+      ],
+      "sampleRect": [
+        350,
+        1015,
+        45,
+        20
+      ],
+      "horizontalSampleSpan": [
+        320,
+        573
+      ],
+      "feather": 7
+    },
+    {
+      "name": "course-3 title and rule",
+      "method": "Same-row matching-color original ink/paper samples, robust median to exclude printed letters/photos; subtle source texture grain and 7-row continuity. No repeated strips or motif synthesis.",
+      "sourceRect": [
+        609,
+        842,
+        175,
+        66
+      ],
+      "sampleRect": [
+        661,
+        1022,
+        45,
+        30
+      ],
+      "horizontalSampleSpan": [
+        590,
+        830
+      ],
+      "feather": 7
+    },
+    {
+      "name": "course-3 description",
+      "method": "Same-row matching-color original ink/paper samples, robust median to exclude printed letters/photos; subtle source texture grain and 7-row continuity. No repeated strips or motif synthesis.",
+      "sourceRect": [
+        609,
+        904,
+        160,
+        65
+      ],
+      "sampleRect": [
+        661,
+        1022,
+        45,
+        30
+      ],
+      "horizontalSampleSpan": [
+        590,
+        830
+      ],
+      "feather": 7
+    },
+    {
+      "name": "course-3 arrow",
+      "method": "Same-row matching-color original ink/paper samples, robust median to exclude printed letters/photos; subtle source texture grain and 7-row continuity. No repeated strips or motif synthesis.",
+      "sourceRect": [
+        606,
+        970,
+        55,
+        54
+      ],
+      "sampleRect": [
+        661,
+        1022,
+        45,
+        30
+      ],
+      "horizontalSampleSpan": [
+        590,
+        830
+      ],
+      "feather": 7
+    },
+    {
+      "name": "challenge heading",
+      "method": "Same-row matching-color original ink/paper samples, robust median to exclude printed letters/photos; subtle source texture grain and 7-row continuity. No repeated strips or motif synthesis.",
+      "sourceRect": [
+        142,
+        1298,
+        297,
+        61
+      ],
+      "sampleRect": [
+        160,
+        1267,
+        230,
+        30
+      ],
+      "horizontalSampleSpan": [
+        118,
+        548
+      ],
+      "feather": 7
+    },
+    {
+      "name": "challenge description",
+      "method": "Same-row matching-color original ink/paper samples, robust median to exclude printed letters/photos; subtle source texture grain and 7-row continuity. No repeated strips or motif synthesis.",
+      "sourceRect": [
+        142,
+        1349,
+        313,
+        45
+      ],
+      "sampleRect": [
+        160,
+        1267,
+        230,
+        30
+      ],
+      "horizontalSampleSpan": [
+        118,
+        548
+      ],
+      "feather": 7
+    },
+    {
+      "name": "challenge start button, border and shadow",
+      "method": "Same-row matching-color original ink/paper samples, robust median to exclude printed letters/photos; subtle source texture grain and 7-row continuity. No repeated strips or motif synthesis.",
+      "sourceRect": [
+        145,
+        1397,
+        215,
+        82
+      ],
+      "sampleRect": [
+        160,
+        1267,
+        230,
+        30
+      ],
+      "horizontalSampleSpan": [
+        118,
+        548
+      ],
+      "feather": 6
+    }
+  ],
+  "implementation": "Use each local art region beneath real semantic headings, text and buttons. No full-page screenshot or transparent hotspot overlay."
+}

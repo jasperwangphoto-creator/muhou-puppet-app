@@ -1,0 +1,160 @@
+{
+  "preparedAt": "2026-10-30T10:33:01.093Z",
+  "reference": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\幕后2.png",
+  "referenceSha256": "73e583ae3d160c09433d503f8738b5cf0ef0701f8dba3d0c7aa988d75daca05a",
+  "sourceUnmodified": true,
+  "method": "Original crops and an unmodified supplied background; native HTML copy and controls; real Hua Meixia photo retained separately.",
+  "navigation": "Existing five-item navigation unchanged at user request.",
+  "assets": [
+    {
+      "file": "backdrop.png",
+      "source": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\背景.png",
+      "notes": "User-supplied wordless companion background, copied byte-for-byte. No status bar or navigation.",
+      "sha256": "b3c2901137c6c6f5904107fdc43911d6b03c2211c1fdcdcdfae42be00b981338"
+    },
+    {
+      "file": "title.png",
+      "source": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\幕后2.png",
+      "crop": [
+        54,
+        122,
+        225,
+        94
+      ],
+      "pixels": [
+        225,
+        94
+      ],
+      "notes": "Original static calligraphic title and seal; semantic H1 is retained.",
+      "sha256": "5c92145d72321848690db4d32faa71284fdf5674ac5ee0cd781e58321cd7f3f2"
+    },
+    {
+      "file": "theme-home.png",
+      "source": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\幕后2.png",
+      "crop": [
+        375,
+        85,
+        477,
+        385
+      ],
+      "pixels": [
+        477,
+        385
+      ],
+      "notes": "Thematic illustration only; all printed copy, status and navigation excluded.",
+      "sha256": "dc0b488a390f6807bc84d2398351d8a0a3da4057f4d98abd5bfc3e0b544b860b"
+    },
+    {
+      "file": "badge-explore.png",
+      "source": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\幕后2.png",
+      "crop": [
+        39,
+        447,
+        59,
+        59
+      ],
+      "pixels": [
+        59,
+        59
+      ],
+      "notes": "Exact original ornamental section icon, not a substitute numbered badge.",
+      "sha256": "f9abfa2e158fed7eda32f48c228efd1b9727390302dfc4b7e3d32b7478766dd8"
+    },
+    {
+      "file": "badge-person.png",
+      "source": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\幕后2.png",
+      "crop": [
+        39,
+        780,
+        60,
+        56
+      ],
+      "pixels": [
+        60,
+        56
+      ],
+      "notes": "Exact original inheritor-story section icon.",
+      "sha256": "61c817e38a53586aaf245384d1b4950ba9b265b7c57c1f8ea09bd74e0b96216c"
+    },
+    {
+      "file": "room-art.png",
+      "source": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\幕后2.png",
+      "crop": [
+        325,
+        524,
+        470,
+        201
+      ],
+      "pixels": [
+        470,
+        201
+      ],
+      "notes": "Rehearsal image from this homepage reference, excluding the copy and button.",
+      "sha256": "8eb0e8514a40498794fb7b5778e0c41ba1e2de8dca4e8e81daee8ec8c5e8aace"
+    },
+    {
+      "file": "room-frame.png",
+      "source": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\幕后2.png",
+      "crop": [
+        40,
+        506,
+        774,
+        240
+      ],
+      "pixels": [
+        774,
+        240
+      ],
+      "notes": "CSS border-image uses only the outer 28px; its center is never rendered.",
+      "sha256": "86c93b288e0b233eade86f088d730e592c118ba522b194a5d92d7319a928a4a0"
+    },
+    {
+      "file": "person-frame.png",
+      "source": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\幕后2.png",
+      "crop": [
+        40,
+        835,
+        774,
+        208
+      ],
+      "pixels": [
+        774,
+        208
+      ],
+      "notes": "CSS border-image uses only the outer 18px; original portrait and printed copy in its center are never rendered.",
+      "sha256": "04ee25be48bf56a04bfdb0e9f923cf5dd68c47712fbce6e5e53698468412fbe3"
+    },
+    {
+      "file": "button-red-frame.png",
+      "source": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\幕后2.png",
+      "crop": [
+        84,
+        671,
+        170,
+        44
+      ],
+      "pixels": [
+        170,
+        44
+      ],
+      "notes": "Only the outer 8px are rendered around a native HTML action label.",
+      "sha256": "f9c092a0b40477b90029e7b31957bb89cff46f4f95988d1d58f9a6cdf0bbb2b4"
+    },
+    {
+      "file": "button-gold-frame.png",
+      "source": "E:\\Users\\Ming\\Desktop\\新建文件夹 (11)\\幕后2.png",
+      "crop": [
+        374,
+        981,
+        180,
+        43
+      ],
+      "pixels": [
+        180,
+        43
+      ],
+      "notes": "Only the outer 8px are rendered; no printed lettering is used.",
+      "sha256": "e205f88af48dcb32b1e19749e5a2feff772ac901e094e960a2292f1de383a223"
+    }
+  ]
+}

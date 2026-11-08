@@ -1,0 +1,247 @@
+/* Backstage-only presentation; shared navigation and other sections stay scoped out. */
+.c-page.c-route-backstage {
+  --bh-ink: #302b24;
+  --bh-red: #9b3025;
+  --bh-gold: #aa8457;
+  --bh-muted: #76634c;
+  color: var(--bh-ink);
+  background: #f8f0e1 url('../assets/v3-art/page-paper.jpg') center top / 430px;
+  padding-bottom: 48px;
+}
+.c-route-backstage .bh-hero {
+  position: relative;
+  isolation: isolate;
+  min-height: 296px;
+  padding: 34px 20px 30px;
+}
+.c-route-backstage .bh-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: .65;
+  background: url('../assets/backstage-v2/plum-corner.webp') left top / 74px auto no-repeat;
+}
+.c-route-backstage .bh-hero::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 0;
+  height: 100px;
+  z-index: -1;
+  opacity: .6;
+  background: url('../assets/backstage-v2/ink-landscape.webp') center bottom / 100% auto no-repeat;
+  -webkit-mask-image: linear-gradient(transparent, #000 70%);
+  mask-image: linear-gradient(transparent, #000 70%);
+  pointer-events: none;
+}
+.c-route-backstage .bh-hero-copy { position: relative; z-index: 2; width: 45%; }
+.c-route-backstage .bh-hero h1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font: 900 58px/1.2 'STKaiti', 'KaiTi', 'Kaiti SC', 'SimSun', serif;
+  letter-spacing: 4px;
+  white-space: nowrap;
+}
+.c-route-backstage .bh-seal {
+  display: inline-block;
+  writing-mode: vertical-rl;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  padding: 6px 3px;
+  border-radius: 45% 30% 40% 20%;
+  background: var(--bh-red);
+  color: #fff5df;
+  outline: 1px solid var(--bh-red);
+  outline-offset: 2px;
+}
+.c-route-backstage .bh-subtitle { font-size: 22px; line-height: 1.5; letter-spacing: 1px; margin-top: 12px; font-weight: 700; }
+.c-route-backstage .bh-intro { font-size: 14px; line-height: 1.9; margin-top: 10px; color: #665744; letter-spacing: 0; }
+.c-route-backstage figure { margin: 0; }
+.c-route-backstage .bh-theme { position: absolute; z-index: 1; right: 0; bottom: 9px; width: 51%; height: 82%; }
+.c-route-backstage .bh-theme img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 9%, #000 97%, transparent), linear-gradient(transparent, #000 8%, #000 95%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 9%, #000 97%, transparent), linear-gradient(transparent, #000 8%, #000 95%, transparent);
+  -webkit-mask-composite: source-in;
+  mask-composite: intersect;
+}
+.c-route-backstage .bh-theme figcaption { position: absolute; right: 12px; bottom: -2px; font-size: 10px; line-height: 1.7; color: #6a5944; background: #f8f0e1d9; padding: 1px 6px; border-radius: 2px; }
+.c-route-backstage .bh-hero-inner { min-height: 264px; padding-top: 43px; }
+.c-route-backstage .bh-hero-inner .bh-hero-copy { margin-left: 24px; width: calc(45% - 24px); }
+.c-route-backstage .bh-hero-inner h1, .c-route-backstage .bh-hero-compact h1 { font-size: 50px; }
+.c-route-backstage .bh-hero-inner .bh-subtitle { font-size: 22px; }
+.c-route-backstage .bh-hero-compact { min-height: 160px; padding: 34px 20px 30px 44px; }
+.c-route-backstage .bh-hero-compact .bh-hero-copy { width: auto; }
+.c-route-backstage .bh-hero-compact .bh-subtitle { font-size: 21px; margin-top: 10px; }
+.c-route-backstage .bh-back { position: absolute; z-index: 3; left: 0; top: 49px; width: 44px; height: 44px; padding: 0; color: var(--bh-red); font-size: 36px; line-height: 1; }
+.c-route-backstage .bh-hero-compact .bh-back { top: 39px; }
+.c-route-backstage .bh-body { padding: 0 20px; }
+.c-route-backstage .bh-body > section + section, .c-route-backstage .bh-person-intro + .bh-reading { margin-top: 28px; }
+.c-route-backstage .bh-section-title { display: flex; align-items: center; gap: 9px; font-size: 23px; line-height: 1.5; letter-spacing: 2px; margin: 0 0 13px; }
+.c-route-backstage .bh-section-title > span {
+  display: grid;
+  place-items: center;
+  flex: 0 0 29px;
+  height: 33px;
+  color: #fff7e8;
+  background: #997347;
+  border: 3px double #e2cba8;
+  border-radius: 11px 4px 11px 4px;
+  font-size: 15px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+.c-route-backstage .bh-entry, .c-route-backstage .bh-space-panel, .c-route-backstage .bh-person-intro {
+  position: relative;
+  border: 1px solid #b69669;
+  border-radius: 12px 3px 12px 3px;
+  background: #fff9ed80;
+  box-shadow: 0 4px 12px #6b4f2910;
+}
+.c-route-backstage .bh-entry::before, .c-route-backstage .bh-space-panel::before, .c-route-backstage .bh-person-intro::before {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px solid #bd9b6555;
+  border-radius: 8px 1px 8px 1px;
+  pointer-events: none;
+  z-index: 2;
+}
+.c-route-backstage .bh-entry { display: block; width: 100%; padding: 0; text-align: left; overflow: hidden; }
+.c-route-backstage .bh-entry h3 { font-size: 22px; font-weight: 700; line-height: 1.5; letter-spacing: 1px; }
+.c-route-backstage .bh-entry p { font-size: 14px; line-height: 1.8; margin-top: 8px; color: #655640; }
+.c-route-backstage .bh-room-card { min-height: 206px; }
+.c-route-backstage .bh-room-card > img { position: absolute; inset: 0 0 0 auto; width: 61%; height: 100%; object-fit: cover; }
+.c-route-backstage .bh-room-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, #f8efdf 10%, #f8efdfef 34%, #f8efdf60 56%, transparent 76%); }
+.c-route-backstage .bh-room-card > div { position: relative; z-index: 1; padding: 22px 18px; }
+.c-route-backstage .bh-image-note { position: absolute; z-index: 1; bottom: 8px; right: 10px; font-size: 10px; line-height: 1.6; color: #fff7e7; background: #4c392d99; padding: 1px 6px; border-radius: 2px; }
+.c-route-backstage .bh-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 7px 12px;
+  border: 3px double #d5ac81;
+  border-radius: 15px 4px 15px 4px;
+  font-size: 14px;
+  line-height: 1.6;
+  background: var(--bh-red);
+  color: #fff4dc;
+  white-space: nowrap;
+}
+.c-route-backstage .bh-entry .bh-cta { margin-top: 16px; }
+.c-route-backstage .bh-cta-outline { border-color: #ab8459; color: #785432; background: #fcf3e3b3; }
+.c-route-backstage .bh-person-card { display: grid; grid-template-columns: 42% minmax(0, 1fr); min-height: 236px; }
+.c-route-backstage .bh-card-photo { position: relative; min-width: 0; background: #2d2a25; }
+.c-route-backstage .bh-card-photo > img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.c-route-backstage .bh-photo-credit { position: absolute; inset: auto 0 0; padding: 3px 4px; text-align: center; color: #fff6e6; font-size: 10px; line-height: 1.7; background: #211c18b3; }
+.c-route-backstage .bh-person-card-copy { padding: 20px 14px 18px 17px; align-self: center; }
+.c-route-backstage .bh-entry .bh-eyebrow, .c-route-backstage .bh-eyebrow { font-size: 14px; line-height: 1.6; letter-spacing: 1px; color: #8b6640; margin: 0 0 5px; }
+.c-route-backstage .bh-person-card h3 { font-size: 30px; letter-spacing: 3px; }
+.c-route-backstage .bh-space-panel { display: grid; grid-template-columns: 51% minmax(0, 1fr); min-height: 254px; overflow: hidden; }
+.c-route-backstage .bh-space-copy { position: relative; z-index: 1; padding: 20px 11px 20px 14px; align-self: center; }
+.c-route-backstage .bh-space-panel .bh-section-title { gap: 6px; font-size: 21px; letter-spacing: 1px; margin-bottom: 12px; }
+.c-route-backstage .bh-space-panel .bh-section-title > span { flex-basis: 26px; font-size: 14px; }
+.c-route-backstage .bh-lead { font-size: 14px; color: #6b5943; line-height: 1.9; margin-bottom: 18px; letter-spacing: 0; }
+.c-route-backstage .bh-space-panel .bh-cta { padding-left: 8px; padding-right: 8px; gap: 5px; }
+.c-route-backstage .bh-space-image { position: relative; min-width: 0; }
+.c-route-backstage .bh-space-image > img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 63% center; }
+.c-route-backstage .bh-space-image figcaption { position: absolute; inset: auto 0 8px; font-size: 10px; text-align: center; color: #fff7e9; line-height: 1.8; background: #38291f99; padding: 2px 0; }
+.c-route-backstage .bh-reading { padding-top: 25px; border-top: 1px solid #bca17a77; }
+.c-route-backstage .bh-reading > .bh-section-title { font-size: 22px; letter-spacing: 1px; margin-bottom: 20px; }
+.c-route-backstage .bh-observations { list-style: none; padding: 0; margin: 0; display: grid; gap: 23px; }
+.c-route-backstage .bh-observations > li { display: grid; grid-template-columns: 28px 1fr; gap: 12px; }
+.c-route-backstage .bh-observations > li > span { color: #a1845c; font-size: 19px; line-height: 1.5; border-right: 1px solid #cdb38a; }
+.c-route-backstage .bh-reading h3 { font-size: 18px; line-height: 1.6; font-weight: 700; }
+.c-route-backstage .bh-reading p, .c-route-backstage .bh-biography { font-size: 14px; line-height: 1.95; letter-spacing: .3px; color: #5c5040; margin-top: 7px; }
+.c-route-backstage .bh-person-intro { display: grid; grid-template-columns: minmax(0, 1fr) 46%; gap: 16px 12px; padding: 21px 16px; }
+.c-route-backstage .bh-person-heading { display: flex; align-items: center; gap: 8px; }
+.c-route-backstage .bh-person-heading h2 { font-size: 30px; line-height: 1.6; letter-spacing: 2px; white-space: nowrap; }
+.c-route-backstage .bh-person-heading .bh-eyebrow { font-size: 12px; letter-spacing: 0; }
+.c-route-backstage .bh-person-stamp { writing-mode: vertical-rl; border: 3px double #d1b88d; background: #95704a; color: #fff4df; padding: 9px 4px; line-height: 1.1; border-radius: 12px 3px; letter-spacing: 3px; font-size: 14px; }
+.c-route-backstage .bh-person-origin { font-size: 14px; line-height: 1.9; margin-top: 20px; padding-bottom: 14px; border-bottom: 1px solid #c8aa7e99; color: #6b543b; }
+.c-route-backstage .bh-person-specialty { font-size: 14px; line-height: 1.9; margin-top: 14px; color: #5e503e; letter-spacing: 0; }
+.c-route-backstage .bh-person-photo { align-self: start; }
+.c-route-backstage .bh-person-photo > img { display: block; width: 100%; height: auto; aspect-ratio: 365 / 620; object-fit: contain; outline: 1px solid #b6966999; outline-offset: 3px; border-radius: 6px 1px; }
+.c-route-backstage .bh-person-photo figcaption { font-size: 10px; color: #7a6347; line-height: 1.7; margin-top: 8px; text-align: center; }
+.c-route-backstage .bh-person-honors { grid-column: 1 / -1; border-top: 1px solid #c8aa7e99; padding-top: 15px; font-size: 14px; line-height: 1.9; color: #6b5238; }
+.c-route-backstage .bh-person-intro .bh-biography { grid-column: 1 / -1; margin: 0; }
+.c-route-backstage .bh-favorite { grid-column: 1 / -1; justify-self: start; }
+.c-route-backstage .bh-story-block { display: grid; grid-template-columns: 29px minmax(0, 1fr); gap: 12px; }
+.c-route-backstage .bh-story-block + .bh-story-block { margin-top: 24px; }
+.c-route-backstage .bh-story-index { font-size: 20px; font-style: italic; color: #ab8b61; border-right: 1px solid #cdb38a; line-height: 1.5; }
+.c-route-backstage .bh-role-list { margin: 0; display: grid; gap: 12px; }
+.c-route-backstage .bh-role-list > div { padding: 15px; border: 1px solid #c9af875c; border-left: 3px solid #ac8458; border-radius: 0 8px 0 8px; background: #fff9ed66; }
+.c-route-backstage .bh-role-list dt { font-size: 19px; font-weight: 700; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.c-route-backstage .bh-role-list dt > span { color: #8a6745; font-size: 14px; font-weight: 400; }
+.c-route-backstage .bh-role-list dd { font-size: 14px; margin: 8px 0 0; color: #75624b; line-height: 1.8; }
+.c-route-backstage .bh-sources { border-top: 1px solid #bfa47d; margin-top: 28px; padding-top: 20px; }
+.c-route-backstage .bh-sources h2 { font-size: 17px; color: #735e44; margin-bottom: 8px; }
+.c-route-backstage .bh-sources a { display: flex; align-items: center; min-height: 44px; text-decoration: underline; text-underline-offset: 4px; font-size: 14px; color: #80603e; line-height: 1.8; padding: 6px 0; }
+@media (max-width: 380px) {
+  .c-route-backstage .bh-body { padding-left: 18px; padding-right: 18px; }
+  .c-route-backstage .bh-hero { padding-left: 18px; padding-right: 18px; }
+  .c-route-backstage .bh-hero-compact { padding-left: 44px; }
+  .c-route-backstage .bh-person-card-copy { padding-left: 14px; padding-right: 11px; }
+  .c-route-backstage .bh-person-heading h2 { font-size: 28px; }
+  .c-route-backstage .bh-person-intro { padding-left: 14px; padding-right: 14px; }
+}
+
+/* Homepage artwork comes from the supplied PNG. Inner pages retain their layout. */
+.c-page.c-route-backstage.bh-home-page {
+  background: #f8f0e1 url('../assets/backstage-home-v3/backdrop.png') center top / 100% 100% no-repeat;
+  padding-bottom: 34px;
+}
+.bh-home-page .bh-hero-home { min-height: 232px; padding-top: 24px; padding-bottom: 22px; }
+.bh-home-page .bh-hero-home::before, .bh-home-page .bh-hero-home::after { display: none; }
+.bh-home-page .bh-hero-home h1 { display: block; line-height: 1; letter-spacing: 0; }
+.bh-home-page .bh-home-title { display: block; width: 114px; height: auto; object-fit: contain; }
+.bh-home-page .bh-home-sr { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.bh-home-page .bh-hero-home .bh-subtitle { font-size: 17px; line-height: 1.7; margin-top: 11px; letter-spacing: .5px; white-space: nowrap; }
+.bh-home-page .bh-hero-home .bh-intro { margin-top: 8px; line-height: 1.9; }
+.bh-home-page .bh-hero-home .bh-theme { bottom: 0; height: 100%; }
+.bh-home-page .bh-hero-home .bh-theme img { position: absolute; bottom: 0; height: auto; }
+.bh-home-page .bh-hero-home .bh-theme figcaption { bottom: 4px; }
+.bh-home-page .bh-section-title { font-size: 21px; gap: 9px; margin-bottom: 9px; }
+.bh-home-page .bh-section-title > img { width: 29px; height: 30px; object-fit: contain; flex: 0 0 29px; }
+.bh-home-page .bh-home-body > section + section { margin-top: 22px; }
+.bh-home-page .bh-entry { border-radius: 0; box-shadow: 0 4px 8px #70502d1a; background: #fff8e84d; }
+.bh-home-page .bh-entry::before { display: none; }
+.bh-home-page .bh-room-card {
+  min-height: 182px;
+  border: 12px solid transparent;
+  border-image: url('../assets/backstage-home-v3/room-frame.png') 28 stretch;
+}
+.bh-home-page .bh-room-card > img { width: 66%; }
+.bh-home-page .bh-room-card::after { background: linear-gradient(90deg, #f8efdf 10%, #f8efdfef 34%, #f8efdf60 58%, transparent 76%); }
+.bh-home-page .bh-room-card > div { padding: 5px 4px; }
+.bh-home-page .bh-room-card h3 { font-size: 20px; letter-spacing: 0; }
+.bh-home-page .bh-entry p { margin-top: 6px; }
+.bh-home-page .bh-entry .bh-cta {
+  min-height: 44px;
+  margin-top: 10px;
+  padding: 6px 10px;
+  border: 4px solid transparent;
+  border-image: url('../assets/backstage-home-v3/button-red-frame.png') 8 stretch;
+  border-radius: 0;
+}
+.bh-home-page .bh-image-note { right: 2px; bottom: 2px; }
+.bh-home-page .bh-person-card {
+  min-height: 206px;
+  border: 10px solid transparent;
+  border-image: url('../assets/backstage-home-v3/person-frame.png') 18 stretch;
+  grid-template-columns: 39% minmax(0, 1fr);
+}
+.bh-home-page .bh-card-photo { background: #211f1a; }
+.bh-home-page .bh-person-card-copy { padding: 10px 4px 10px 13px; }
+.bh-home-page .bh-person-card h3 { font-size: 27px; }
+.bh-home-page .bh-entry .bh-cta-outline { border-image-source: url('../assets/backstage-home-v3/button-gold-frame.png'); background: #987046; color: #fff5df; }

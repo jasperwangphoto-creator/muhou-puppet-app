@@ -1,0 +1,134 @@
+﻿{
+    "version":  "1.0.0",
+    "created":  "2026-10-21",
+    "canvas":  {
+                   "alpha":  "straight",
+                   "origin":  "top-left",
+                   "colorSpace":  "sRGB",
+                   "width":  1024,
+                   "height":  1536
+               },
+    "headOffset": { "x": 0, "y": 24 },
+    "anchors":  {
+                    "neck":  {
+                                 "y":  465,
+                                 "x":  512
+                             },
+                    "chin":  {
+                                 "y":  445,
+                                 "x":  512
+                             },
+                    "feet":  {
+                                 "y":  1465,
+                                 "x":  512
+                             }
+                },
+    "drawOrder":  [
+                      "body.base",
+                      "head.back",
+                      "body.collar",
+                      "head.front"
+                  ],
+    "heads":  [
+                  {
+                      "back":  "heads/01-back.png",
+                      "front":  "heads/01-front.png",
+                      "name":  "紫袍官生",
+                      "id":  "01"
+                  },
+                  {
+                      "back":  "heads/02-back.png",
+                      "front":  "heads/02-front.png",
+                      "name":  "红蓝武将",
+                      "id":  "02"
+                  },
+                  {
+                      "back":  "heads/03-back.png",
+                      "front":  "heads/03-front.png",
+                      "name":  "粉衣花旦",
+                      "id":  "03"
+                  },
+                  {
+                      "back":  "heads/04-back.png",
+                      "front":  "heads/04-front.png",
+                      "name":  "持琴书生",
+                      "id":  "04"
+                  },
+                  {
+                      "back":  "heads/05-back.png",
+                      "front":  "heads/05-front.png",
+                      "name":  "黑金老生",
+                      "id":  "05"
+                  },
+                  {
+                      "back":  "heads/06-back.png",
+                      "front":  "heads/06-front.png",
+                      "name":  "蓝白青衣",
+                      "id":  "06"
+                  },
+                  {
+                      "back":  "heads/07-back.png",
+                      "front":  "heads/07-front.png",
+                      "name":  "红黑刀马旦",
+                      "id":  "07"
+                  },
+                  {
+                      "back":  "heads/08-back.png",
+                      "front":  "heads/08-front.png",
+                      "name":  "绿袍贵妃",
+                      "id":  "08"
+                  }
+              ],
+    "bodies":  [
+                   {
+                       "collar":  "bodies/01-collar.png",
+                       "name":  "紫袍官生",
+                       "id":  "01",
+                       "base":  "bodies/01-base.png"
+                   },
+                   {
+                       "collar":  "bodies/02-collar.png",
+                       "name":  "红蓝武将",
+                       "id":  "02",
+                       "base":  "bodies/02-base.png"
+                   },
+                   {
+                       "collar":  "bodies/03-collar.png",
+                       "name":  "粉衣花旦",
+                       "id":  "03",
+                       "base":  "bodies/03-base.png"
+                   },
+                   {
+                       "collar":  "bodies/04-collar.png",
+                       "name":  "持琴书生",
+                       "id":  "04",
+                       "base":  "bodies/04-base.png"
+                   },
+                   {
+                       "collar":  "bodies/05-collar.png",
+                       "name":  "黑金老生",
+                       "id":  "05",
+                       "base":  "bodies/05-base.png"
+                   },
+                   {
+                       "collar":  "bodies/06-collar.png",
+                       "name":  "蓝白青衣",
+                       "id":  "06",
+                       "base":  "bodies/06-base.png"
+                   },
+                   {
+                       "collar":  "bodies/07-collar.png",
+                       "name":  "红黑刀马旦",
+                       "id":  "07",
+                       "base":  "bodies/07-base.png"
+                   },
+                   {
+                       "collar":  "bodies/08-collar.png",
+                       "name":  "绿袍贵妃",
+                       "id":  "08",
+                       "base":  "bodies/08-base.png"
+                   }
+               ],
+    "usage":  "Replace both head layers together, or both body layers together. Keep every sprite at the same canvas origin and scale. Render all four layers atomically.",
+    "appArtVersion":  4
+}

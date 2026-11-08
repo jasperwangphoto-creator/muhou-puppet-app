@@ -1,0 +1,520 @@
+{
+  "version": 2,
+  "reference": "C:\\Users\\Ming\\.codex\\attachments\\ed989b16-78db-4400-bd93-9f031c09d486\\image-1.png",
+  "pixels": [
+    850,
+    1850
+  ],
+  "sha256": "0f206347021a54887cc6043fe223ba168b6dbd4de454179e8fec82429bf06a31",
+  "sourceUnmodified": true,
+  "excluded": [
+    "System status bar",
+    "Bottom navigation",
+    "Home indicator"
+  ],
+  "assets": [
+    {
+      "file": "hero.png",
+      "crop": [
+        0,
+        65,
+        850,
+        350
+      ],
+      "pixels": [
+        850,
+        350
+      ],
+      "notes": "Source calligraphy, puppet and landscape; excludes system status bar. Subtitle and controls are HTML.",
+      "sha256": "6036d476375a9841d57e221b87eb71f36fb70bebc4af297dd70d823c72785698"
+    },
+    {
+      "file": "tab-selected.png",
+      "crop": [
+        44,
+        430,
+        199,
+        58
+      ],
+      "pixels": [
+        199,
+        58
+      ],
+      "notes": "Empty original red plaque; live tab label is HTML.",
+      "sha256": "a83d4346a6721a8fd812321a3bca98137f592241a00aa14c2d2df2c8f68c1d00"
+    },
+    {
+      "file": "today.png",
+      "crop": [
+        36,
+        508,
+        786,
+        272
+      ],
+      "pixels": [
+        786,
+        272
+      ],
+      "notes": "Original duet artwork, border and empty ticket plaque; title, time, venue, ribbon and button are HTML.",
+      "sha256": "317b1ff6570987b31e450355494e3d04bfe3281f22dd2368b1d716d8a9914118"
+    },
+    {
+      "file": "play-huahaoyueyuan.png",
+      "crop": [
+        410,
+        530,
+        399,
+        231
+      ],
+      "pixels": [
+        399,
+        231
+      ],
+      "notes": "Duet portrait only for the matching play detail.",
+      "sha256": "04eb773a22ab8d697272d01cd077c5a9559ef23b8d052e6a4e12248ce9ff4d6f"
+    },
+    {
+      "file": "section-flower.png",
+      "crop": [
+        39,
+        811,
+        43,
+        44
+      ],
+      "pixels": [
+        43,
+        44
+      ],
+      "notes": "Original dark floral section ornament.",
+      "sha256": "a890c008d51e7b3437091b9ce76f050b1c7e8a910e6a50601bb8fef2c3855a7c"
+    },
+    {
+      "file": "play-muguiying.png",
+      "crop": [
+        53,
+        875,
+        176,
+        151
+      ],
+      "pixels": [
+        176,
+        151
+      ],
+      "notes": "Source puppet portrait and brush edge only.",
+      "sha256": "8088d46ba9b5ddbbe7b602b588662cc5a0cc129195117c5b1279cd64e9e33836"
+    },
+    {
+      "file": "card-muguiying.png",
+      "crop": [
+        53,
+        1026,
+        176,
+        74
+      ],
+      "pixels": [
+        176,
+        74
+      ],
+      "notes": "Original empty paper card footer; live name and category are HTML.",
+      "sha256": "65c7e6a81539589301951e2ddef02ac32002db3cfc1eff15c51472a7f50a16e7"
+    },
+    {
+      "file": "play-jiangtaigong.png",
+      "crop": [
+        249,
+        875,
+        177,
+        151
+      ],
+      "pixels": [
+        177,
+        151
+      ],
+      "notes": "Source puppet portrait and brush edge only.",
+      "sha256": "193f237ce09999f89bbe35cb22d584627c79c425afd1a2e5fa33c516148fb2d0"
+    },
+    {
+      "file": "card-jiangtaigong.png",
+      "crop": [
+        249,
+        1026,
+        177,
+        74
+      ],
+      "pixels": [
+        177,
+        74
+      ],
+      "notes": "Original empty paper card footer; live name and category are HTML.",
+      "sha256": "a46ddd30ae504fd5f2d21341e13729aeb830c6e16b7acd4fecefaafa6e0cc4ae"
+    },
+    {
+      "file": "play-hongse.png",
+      "crop": [
+        443,
+        875,
+        178,
+        151
+      ],
+      "pixels": [
+        178,
+        151
+      ],
+      "notes": "Source puppet portrait and brush edge only.",
+      "sha256": "72eea9748a9659da92732061070a58a47f9087fe4b2bdd8bdfd7767f354e1682"
+    },
+    {
+      "file": "card-hongse.png",
+      "crop": [
+        443,
+        1026,
+        178,
+        74
+      ],
+      "pixels": [
+        178,
+        74
+      ],
+      "notes": "Original empty paper card footer; live name and category are HTML.",
+      "sha256": "945b3dae8cd62614185f586b0115670e0dee658d971e42b14d3604278d2c2000"
+    },
+    {
+      "file": "play-shajiabang.png",
+      "crop": [
+        636,
+        875,
+        178,
+        151
+      ],
+      "pixels": [
+        178,
+        151
+      ],
+      "notes": "Source puppet portrait and brush edge only.",
+      "sha256": "6596c04ec0836a8aa97a6abe69a112b558a9775e68acc950716fbeee0fa6653a"
+    },
+    {
+      "file": "card-shajiabang.png",
+      "crop": [
+        636,
+        1026,
+        178,
+        74
+      ],
+      "pixels": [
+        178,
+        74
+      ],
+      "notes": "Original empty paper card footer; live name and category are HTML.",
+      "sha256": "e0fc62094526af80f563cd39371dd2a33e0fcf208377d81c4026f51ebd73b505"
+    },
+    {
+      "file": "digital.png",
+      "crop": [
+        34,
+        1125,
+        795,
+        208
+      ],
+      "pixels": [
+        795,
+        208
+      ],
+      "notes": "Original landscape and theatre building; copy, ribbon and CTA are HTML.",
+      "sha256": "0acc79892f136957ac370475890e4699fb3b8bb21f2d62d45fd815185847b00a"
+    },
+    {
+      "file": "culture-history.png",
+      "crop": [
+        96,
+        1447,
+        98,
+        96
+      ],
+      "pixels": [
+        98,
+        96
+      ],
+      "notes": "Original RGB retained; source paper margin fades to transparent outside painted medallion. Label is HTML.",
+      "sha256": "fb9a094aa8be067729923605ef0367b7c292c298ecdfe113f2ea91717da1a7e3"
+    },
+    {
+      "file": "culture-art.png",
+      "crop": [
+        290,
+        1447,
+        98,
+        96
+      ],
+      "pixels": [
+        98,
+        96
+      ],
+      "notes": "Original RGB retained; source paper margin fades to transparent outside painted medallion. Label is HTML.",
+      "sha256": "bd4a38fd62a4bd41ae33e70034a3b75b4b9bb041033019f1ba77fb6c8f05ce9c"
+    },
+    {
+      "file": "culture-performance.png",
+      "crop": [
+        482,
+        1447,
+        98,
+        96
+      ],
+      "pixels": [
+        98,
+        96
+      ],
+      "notes": "Original RGB retained; source paper margin fades to transparent outside painted medallion. Label is HTML.",
+      "sha256": "bbd163833b7a35a19f114f0d357467bf1388569cc3fe4fb3b7ad090ac9865fe9"
+    },
+    {
+      "file": "culture-value.png",
+      "crop": [
+        676,
+        1447,
+        98,
+        96
+      ],
+      "pixels": [
+        98,
+        96
+      ],
+      "notes": "Original RGB retained; source paper margin fades to transparent outside painted medallion. Label is HTML.",
+      "sha256": "8f90dec187829f9519d6ef8259ddc0e64a251e05e68c812458485a3f4a29e210"
+    },
+    {
+      "file": "closing.png",
+      "crop": [
+        0,
+        1583,
+        850,
+        87
+      ],
+      "pixels": [
+        850,
+        87
+      ],
+      "notes": "Plum and ink mountains above navigation; excludes navigation artwork.",
+      "sha256": "3d1df65783b93170faf85b95323a591a5621ab880cf58902e74b5d17b6571d23"
+    },
+    {
+      "file": "paper.png",
+      "crop": [
+        362,
+        1374,
+        245,
+        58
+      ],
+      "pixels": [
+        245,
+        58
+      ],
+      "notes": "Text-free source paper texture.",
+      "sha256": "53ec913b8ca435fc38c19b131366098f329970ab507d53ec57017eb84e73a9ae"
+    }
+  ],
+  "repairs": [
+    {
+      "rect": [
+        75,
+        249,
+        260,
+        79
+      ],
+      "mode": "dark",
+      "label": "Hero subtitle and slogan",
+      "method": "Masked local neighbor diffusion; live labels rendered in HTML"
+    },
+    {
+      "rect": [
+        684,
+        124,
+        123,
+        54
+      ],
+      "sample": [
+        684,
+        179
+      ],
+      "label": "Search and scan icons",
+      "method": "Feathered adjacent source texture"
+    },
+    {
+      "rect": [
+        95,
+        444,
+        96,
+        30
+      ],
+      "mode": "light",
+      "label": "Active tab label",
+      "method": "Masked local neighbor diffusion; live labels rendered in HTML"
+    },
+    {
+      "rect": [
+        107,
+        567,
+        281,
+        54
+      ],
+      "mode": "dark",
+      "label": "Today play title",
+      "method": "Masked local neighbor diffusion; live labels rendered in HTML"
+    },
+    {
+      "rect": [
+        106,
+        633,
+        266,
+        34
+      ],
+      "mode": "dark",
+      "label": "Time, location and icons",
+      "method": "Masked local neighbor diffusion; live labels rendered in HTML"
+    },
+    {
+      "rect": [
+        139,
+        691,
+        146,
+        33
+      ],
+      "mode": "light",
+      "label": "Ticket button label",
+      "method": "Masked local neighbor diffusion; live labels rendered in HTML"
+    },
+    {
+      "rect": [
+        60,
+        555,
+        25,
+        110
+      ],
+      "mode": "light",
+      "label": "Today ribbon label",
+      "method": "Masked local neighbor diffusion; live labels rendered in HTML"
+    },
+    {
+      "rect": [
+        55,
+        1032,
+        172,
+        34
+      ],
+      "mode": "dark",
+      "label": "muguiying title",
+      "method": "Masked local neighbor diffusion; live labels rendered in HTML"
+    },
+    {
+      "rect": [
+        59,
+        1063,
+        152,
+        27
+      ],
+      "mode": "dark",
+      "label": "muguiying category",
+      "method": "Masked local neighbor diffusion; live labels rendered in HTML"
+    },
+    {
+      "rect": [
+        251,
+        1032,
+        173,
+        34
+      ],
+      "mode": "dark",
+      "label": "jiangtaigong title",
+      "method": "Masked local neighbor diffusion; live labels rendered in HTML"
+    },
+    {
+      "rect": [
+        255,
+        1063,
+        153,
+        27
+      ],
+      "mode": "dark",
+      "label": "jiangtaigong category",
+      "method": "Masked local neighbor diffusion; live labels rendered in HTML"
+    },
+    {
+      "rect": [
+        445,
+        1032,
+        174,
+        34
+      ],
+      "mode": "dark",
+      "label": "hongse title",
+      "method": "Masked local neighbor diffusion; live labels rendered in HTML"
+    },
+    {
+      "rect": [
+        449,
+        1063,
+        154,
+        27
+      ],
+      "mode": "dark",
+      "label": "hongse category",
+      "method": "Masked local neighbor diffusion; live labels rendered in HTML"
+    },
+    {
+      "rect": [
+        638,
+        1032,
+        174,
+        34
+      ],
+      "mode": "dark",
+      "label": "shajiabang title",
+      "method": "Masked local neighbor diffusion; live labels rendered in HTML"
+    },
+    {
+      "rect": [
+        642,
+        1063,
+        154,
+        27
+      ],
+      "mode": "dark",
+      "label": "shajiabang category",
+      "method": "Masked local neighbor diffusion; live labels rendered in HTML"
+    },
+    {
+      "rect": [
+        136,
+        1158,
+        298,
+        73
+      ],
+      "mode": "dark",
+      "label": "Digital stage introduction",
+      "method": "Masked local neighbor diffusion; live labels rendered in HTML"
+    },
+    {
+      "rect": [
+        160,
+        1250,
+        191,
+        33
+      ],
+      "mode": "dark",
+      "label": "Digital stage button",
+      "method": "Masked local neighbor diffusion; live labels rendered in HTML"
+    },
+    {
+      "rect": [
+        66,
+        1158,
+        28,
+        140
+      ],
+      "mode": "light",
+      "label": "Digital stage ribbon",
+      "method": "Masked local neighbor diffusion; live labels rendered in HTML"
+    }
+  ]
+}

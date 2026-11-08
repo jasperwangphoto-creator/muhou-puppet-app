@@ -1,0 +1,456 @@
+{
+  "version": 3,
+  "sourcePolicy": "Originals unchanged. Source pixels extracted deterministically; no alternate invented characters.",
+  "assets": [
+    {
+      "id": 0,
+      "name": "蓝衣生角",
+      "file": "puppet-0.png",
+      "source": "../木偶形象/八位戏曲木偶角色透明图集-2.png",
+      "sourceBounds": [
+        30,
+        24,
+        279,
+        589
+      ],
+      "extraction": "Source RGBA preserved; large alpha components with 2px edge inclusion; top/right touching pair split at source y=610",
+      "readyForArticulation": false
+    },
+    {
+      "id": 1,
+      "name": "武生",
+      "file": "puppet-1.png",
+      "source": "../木偶形象/八位戏曲木偶角色透明图集-2.png",
+      "sourceBounds": [
+        319,
+        2,
+        355,
+        616
+      ],
+      "extraction": "Source RGBA preserved; large alpha components with 2px edge inclusion; top/right touching pair split at source y=610",
+      "readyForArticulation": false
+    },
+    {
+      "id": 2,
+      "name": "粉衣旦角",
+      "file": "puppet-2.png",
+      "source": "../木偶形象/八位戏曲木偶角色透明图集-2.png",
+      "sourceBounds": [
+        610,
+        19,
+        325,
+        602
+      ],
+      "extraction": "Source RGBA preserved; large alpha components with 2px edge inclusion; top/right touching pair split at source y=610",
+      "readyForArticulation": false
+    },
+    {
+      "id": 3,
+      "name": "黑衣丑角",
+      "file": "puppet-3.png",
+      "source": "../木偶形象/八位戏曲木偶角色透明图集-2.png",
+      "sourceBounds": [
+        951,
+        53,
+        286,
+        567
+      ],
+      "extraction": "Source RGBA preserved; large alpha components with 2px edge inclusion; top/right touching pair split at source y=610",
+      "readyForArticulation": false
+    },
+    {
+      "id": 4,
+      "name": "黑金包公",
+      "file": "puppet-4.png",
+      "source": "../木偶形象/八位戏曲木偶角色透明图集-2.png",
+      "sourceBounds": [
+        40,
+        605,
+        291,
+        583
+      ],
+      "extraction": "Source RGBA preserved; large alpha components with 2px edge inclusion; top/right touching pair split at source y=610",
+      "readyForArticulation": false
+    },
+    {
+      "id": 5,
+      "name": "浅色嫦娥",
+      "file": "puppet-5.png",
+      "source": "../木偶形象/八位戏曲木偶角色透明图集-2.png",
+      "sourceBounds": [
+        340,
+        594,
+        362,
+        588
+      ],
+      "extraction": "Source RGBA preserved; large alpha components with 2px edge inclusion; top/right touching pair split at source y=610",
+      "readyForArticulation": false
+    },
+    {
+      "id": 6,
+      "name": "红黑白骨精",
+      "file": "puppet-6.png",
+      "source": "../木偶形象/八位戏曲木偶角色透明图集-2.png",
+      "sourceBounds": [
+        688,
+        601,
+        328,
+        573
+      ],
+      "extraction": "Source RGBA preserved; large alpha components with 2px edge inclusion; top/right touching pair split at source y=610",
+      "readyForArticulation": false
+    },
+    {
+      "id": 7,
+      "name": "红绿铁扇公主",
+      "file": "puppet-7.png",
+      "source": "../木偶形象/八位戏曲木偶角色透明图集-2.png",
+      "sourceBounds": [
+        1000,
+        602,
+        301,
+        579
+      ],
+      "extraction": "Source RGBA preserved; large alpha components with 2px edge inclusion; top/right touching pair split at source y=610",
+      "readyForArticulation": false
+    },
+    {
+      "file": "hero-theatre.png",
+      "source": "../戏台/戏台-首页.png",
+      "crop": [
+        0,
+        84,
+        851,
+        334
+      ],
+      "notes": "System bar and navigation excluded. Search/scan glyph area replaced with a same-coordinate patch from the supplied wordless background. Static calligraphic title and introductory text retained."
+    },
+    {
+      "file": "hero-learn.png",
+      "source": "../学艺/学艺-首页.png",
+      "crop": [
+        0,
+        90,
+        852,
+        400
+      ],
+      "notes": "System bar and navigation excluded. Search/scan glyph area replaced with a same-coordinate patch from the supplied wordless background. Static calligraphic title and introductory text retained."
+    },
+    {
+      "file": "page-paper.jpg",
+      "source": "../背景.png",
+      "crop": [
+        100,
+        560,
+        650,
+        650
+      ],
+      "notes": "Wordless supplied paper texture."
+    },
+    {
+      "file": "page-backdrop.png",
+      "source": "../背景.png",
+      "notes": "Original wordless paper/landscape background, separate from all controls."
+    },
+    {
+      "file": "nav-theatre.png",
+      "source": "../导航栏/戏台.png",
+      "notes": "Transparent icon; trimmed only, original RGB/alpha retained."
+    },
+    {
+      "file": "nav-learn.png",
+      "source": "../导航栏/学艺.png",
+      "notes": "Transparent icon; trimmed only, original RGB/alpha retained."
+    },
+    {
+      "file": "nav-backstage.png",
+      "source": "../导航栏/幕后.png",
+      "notes": "Transparent icon; trimmed only, original RGB/alpha retained."
+    },
+    {
+      "file": "nav-shop.png",
+      "source": "../导航栏/文创.png",
+      "notes": "Transparent icon; trimmed only, original RGB/alpha retained."
+    },
+    {
+      "file": "nav-me.png",
+      "source": "../导航栏/我的.png",
+      "notes": "Transparent icon; trimmed only, original RGB/alpha retained."
+    },
+    {
+      "file": "learn-puppet.jpg",
+      "source": "../学艺/学艺-首页.png",
+      "crop": [
+        130,
+        1006,
+        165,
+        202
+      ],
+      "notes": "Photo-only region: baked card heading, subtitle, and arrow excluded."
+    },
+    {
+      "file": "learn-workshop.jpg",
+      "source": "../学艺/学艺-首页.png",
+      "crop": [
+        370,
+        1060,
+        194,
+        170
+      ],
+      "notes": "Photo-only region: baked card heading, subtitle, and arrow excluded."
+    },
+    {
+      "file": "learn-control.jpg",
+      "source": "../学艺/学艺-首页.png",
+      "crop": [
+        668,
+        963,
+        160,
+        270
+      ],
+      "notes": "Photo-only region: baked card heading, subtitle, and arrow excluded."
+    },
+    {
+      "file": "knowledge-structure.png",
+      "source": "../木偶形象/2.png",
+      "crop": [
+        109,
+        895,
+        118,
+        184
+      ],
+      "notes": "Small full-body red puppet structure illustration; no adjacent printed labels. Reference only, not a rig part."
+    },
+    {
+      "file": "workshop-face-0.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        183,
+        652,
+        75,
+        84
+      ],
+      "notes": "Face tile interior; printed category and selection text excluded."
+    },
+    {
+      "file": "workshop-face-1.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        287,
+        652,
+        75,
+        84
+      ],
+      "notes": "Face tile interior; printed category and selection text excluded."
+    },
+    {
+      "file": "workshop-face-2.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        392,
+        652,
+        73,
+        84
+      ],
+      "notes": "Face tile interior; printed category and selection text excluded."
+    },
+    {
+      "file": "workshop-face-3.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        183,
+        768,
+        75,
+        83
+      ],
+      "notes": "Face tile interior; printed category and selection text excluded."
+    },
+    {
+      "file": "workshop-face-4.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        287,
+        768,
+        75,
+        83
+      ],
+      "notes": "Face tile interior; printed category and selection text excluded."
+    },
+    {
+      "file": "workshop-face-5.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        392,
+        768,
+        73,
+        83
+      ],
+      "notes": "Face tile interior; printed category and selection text excluded."
+    },
+    {
+      "file": "workshop-costume-0.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        203,
+        997,
+        88,
+        104
+      ],
+      "notes": "Costume tile art only, excludes label."
+    },
+    {
+      "file": "workshop-costume-1.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        327,
+        997,
+        87,
+        104
+      ],
+      "notes": "Costume tile art only, excludes label."
+    },
+    {
+      "file": "workshop-costume-2.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        451,
+        997,
+        87,
+        104
+      ],
+      "notes": "Costume tile art only, excludes label."
+    },
+    {
+      "file": "workshop-costume-3.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        576,
+        997,
+        87,
+        104
+      ],
+      "notes": "Costume tile art only, excludes label."
+    },
+    {
+      "file": "workshop-costume-4.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        697,
+        997,
+        87,
+        104
+      ],
+      "notes": "Costume tile art only, excludes label."
+    },
+    {
+      "file": "workshop-headdress-0.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        201,
+        1234,
+        90,
+        70
+      ],
+      "notes": "Headdress tile art only, excludes label."
+    },
+    {
+      "file": "workshop-headdress-1.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        327,
+        1234,
+        87,
+        70
+      ],
+      "notes": "Headdress tile art only, excludes label."
+    },
+    {
+      "file": "workshop-headdress-2.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        451,
+        1234,
+        87,
+        70
+      ],
+      "notes": "Headdress tile art only, excludes label."
+    },
+    {
+      "file": "workshop-headdress-3.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        576,
+        1234,
+        87,
+        70
+      ],
+      "notes": "Headdress tile art only, excludes label."
+    },
+    {
+      "file": "workshop-headdress-4.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        697,
+        1234,
+        87,
+        70
+      ],
+      "notes": "Headdress tile art only, excludes label."
+    },
+    {
+      "file": "workshop-accessory-0.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        201,
+        1430,
+        90,
+        72
+      ],
+      "notes": "Accessory tile art only, excludes label."
+    },
+    {
+      "file": "workshop-accessory-1.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        327,
+        1430,
+        87,
+        72
+      ],
+      "notes": "Accessory tile art only, excludes label."
+    },
+    {
+      "file": "workshop-accessory-2.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        451,
+        1430,
+        87,
+        72
+      ],
+      "notes": "Accessory tile art only, excludes label."
+    },
+    {
+      "file": "workshop-accessory-3.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        576,
+        1430,
+        87,
+        72
+      ],
+      "notes": "Accessory tile art only, excludes label."
+    },
+    {
+      "file": "workshop-accessory-4.png",
+      "source": "../学艺/学艺-制作木偶.png",
+      "crop": [
+        697,
+        1430,
+        87,
+        72
+      ],
+      "notes": "Accessory tile art only, excludes label."
+    }
+  ]
+}

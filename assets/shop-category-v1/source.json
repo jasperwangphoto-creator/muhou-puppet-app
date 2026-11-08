@@ -1,0 +1,118 @@
+{
+  "source": {
+    "file": "E:/Users/Ming/Desktop/新建文件夹 (11)/文创-首页.png",
+    "pixels": [
+      852,
+      1846
+    ],
+    "sha256": "d69f363307d066376ef733795353452a2b8937cac3da1be2dd72bfab7afb208c"
+  },
+  "processing": "Unchanged original RGB; a shared circular alpha mask removes outside paper corners. No labels, annotation strokes, generated artwork or baked navigation.",
+  "assets": [
+    {
+      "id": "puppet",
+      "label": "木偶周边",
+      "file": "category-puppet.png",
+      "crop": {
+        "left": 66,
+        "top": 256,
+        "width": 88,
+        "height": 88
+      },
+      "pixels": [
+        88,
+        88
+      ],
+      "cssPixels": [
+        40,
+        40
+      ],
+      "sha256": "c47f0c7439f234dea58ca8cd8fb7ba2fc1f3fa8f936d47d93825d5197b89e5c2",
+      "originalRgbPreserved": true
+    },
+    {
+      "id": "lifestyle",
+      "label": "生活文创",
+      "file": "category-lifestyle.png",
+      "crop": {
+        "left": 224,
+        "top": 256,
+        "width": 88,
+        "height": 88
+      },
+      "pixels": [
+        88,
+        88
+      ],
+      "cssPixels": [
+        40,
+        40
+      ],
+      "sha256": "738cbecd11b8ab04d5e37f8d4e65e5b7fec3692e039803f722ae3b893d2db30e",
+      "originalRgbPreserved": true
+    },
+    {
+      "id": "accessories",
+      "label": "服饰配件",
+      "file": "category-accessories.png",
+      "crop": {
+        "left": 383,
+        "top": 256,
+        "width": 88,
+        "height": 88
+      },
+      "pixels": [
+        88,
+        88
+      ],
+      "cssPixels": [
+        40,
+        40
+      ],
+      "sha256": "4dfc43590c08aba1f1bd4a79cc1c1f04b779bb0c8e5e4b57e8f9b4d02ea1bd6a",
+      "originalRgbPreserved": true
+    },
+    {
+      "id": "new",
+      "label": "新品推荐",
+      "file": "category-new.png",
+      "crop": {
+        "left": 543,
+        "top": 256,
+        "width": 88,
+        "height": 88
+      },
+      "pixels": [
+        88,
+        88
+      ],
+      "cssPixels": [
+        40,
+        40
+      ],
+      "sha256": "8484f8e0a3167df398db43b9e4df5fc345864d80a727836fc56ba19828c290cd",
+      "originalRgbPreserved": true
+    },
+    {
+      "id": "bestsellers",
+      "label": "热销榜单",
+      "file": "category-bestsellers.png",
+      "crop": {
+        "left": 702,
+        "top": 256,
+        "width": 88,
+        "height": 88
+      },
+      "pixels": [
+        88,
+        88
+      ],
+      "cssPixels": [
+        40,
+        40
+      ],
+      "sha256": "bb1401f021c87db8cbb809624f8f7c441516a9b6fffa20136e4555e0610c88f3",
+      "originalRgbPreserved": true
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "source": {
+    "file": "C:\\Users\\Ming\\.codex\\attachments\\3d5d3fac-bd5e-434d-ab63-ee81c68e8bce\\image-1.png",
+    "pixels": [
+      851,
+      1847
+    ],
+    "sha256": "6b0063c7b61989daf520818f27913ab51decf82760296242abb29d48e302e7b0"
+  },
+  "sourceUnmodified": true,
+  "purpose": "Only replace the four theatre-home culture icon images. Labels, links, layout and bottom navigation stay outside these assets.",
+  "commonCanvas": [
+    96,
+    96
+  ],
+  "noResize": true,
+  "assets": [
+    {
+      "id": "history",
+      "label": "起源与历史",
+      "file": "culture-history.png",
+      "rawSourceFile": "culture-history-source.png",
+      "crop": [
+        97,
+        1449,
+        96,
+        96
+      ],
+      "pixels": [
+        96,
+        96
+      ],
+      "resize": false,
+      "recommendedCssSize": [
+        44,
+        44
+      ],
+      "recommendedReferenceScale": 0.4618096357226792,
+      "rgbSourceUnchanged": true,
+      "containsText": false,
+      "containsPlumBranch": false,
+      "processing": "Unchanged source RGB in a shared 96x96 canvas; source paper margin receives a soft alpha fade outside the painted circle. Brown hand-painted paper stays opaque, with only the outer 1.5px canvas edge softened. No generated artwork.",
+      "sha256": "0e888be937daa6396d6ab57097f1c8cebd4c0c903fc8d3101469ba7e576d96bc",
+      "rawCropSha256": "0d9ab32072e59ae383711eab6b7930e74975ede4d5d71070ecbe1e6b06214be2"
+    },
+    {
+      "id": "art",
+      "label": "艺术特色",
+      "file": "culture-art.png",
+      "rawSourceFile": "culture-art-source.png",
+      "crop": [
+        291,
+        1449,
+        96,
+        96
+      ],
+      "pixels": [
+        96,
+        96
+      ],
+      "resize": false,
+      "recommendedCssSize": [
+        44,
+        44
+      ],
+      "recommendedReferenceScale": 0.4618096357226792,
+      "rgbSourceUnchanged": true,
+      "containsText": false,
+      "containsPlumBranch": false,
+      "processing": "Unchanged source RGB in a shared 96x96 canvas; source paper margin receives a soft alpha fade outside the painted circle. Brown hand-painted paper stays opaque, with only the outer 1.5px canvas edge softened. No generated artwork.",
+      "sha256": "a238717c82b98336489c7ca1ec31b09841fd7dffb6e4906d8b5d3940a9860e20",
+      "rawCropSha256": "cbbac8ea6a728179c9150a515710bc4197b81785ae0b537fc2ca5db4c363c095"
+    },
+    {
+      "id": "performance",
+      "label": "表演形式",
+      "file": "culture-performance.png",
+      "rawSourceFile": "culture-performance-source.png",
+      "crop": [
+        483,
+        1449,
+        96,
+        96
+      ],
+      "pixels": [
+        96,
+        96
+      ],
+      "resize": false,
+      "recommendedCssSize": [
+        44,
+        44
+      ],
+      "recommendedReferenceScale": 0.4618096357226792,
+      "rgbSourceUnchanged": true,
+      "containsText": false,
+      "containsPlumBranch": false,
+      "processing": "Unchanged source RGB in a shared 96x96 canvas; source paper margin receives a soft alpha fade outside the painted circle. Brown hand-painted paper stays opaque, with only the outer 1.5px canvas edge softened. No generated artwork.",
+      "sha256": "eb45d48eec26d563fd00bcdb721b42ab624beda0056fc699ca10435966dc979a",
+      "rawCropSha256": "e45514ff7928921f971d9637a11c30615c2533e8f3bf9ee649b3e1e731dea156"
+    },
+    {
+      "id": "value",
+      "label": "文化价值",
+      "file": "culture-value.png",
+      "rawSourceFile": "culture-value-source.png",
+      "crop": [
+        677,
+        1449,
+        96,
+        96
+      ],
+      "pixels": [
+        96,
+        96
+      ],
+      "resize": false,
+      "recommendedCssSize": [
+        44,
+        44
+      ],
+      "recommendedReferenceScale": 0.4618096357226792,
+      "rgbSourceUnchanged": true,
+      "containsText": false,
+      "containsPlumBranch": false,
+      "processing": "Unchanged source RGB in a shared 96x96 canvas; source paper margin receives a soft alpha fade outside the painted circle. Brown hand-painted paper stays opaque, with only the outer 1.5px canvas edge softened. No generated artwork.",
+      "sha256": "4df32f5fd4131bc0cf6117175561ca0fdb9d0e03ae098e6428f9a6e125bb6881",
+      "rawCropSha256": "ce13a74d331887487e5e86fe8239b6a4446cf7e0e336c5b7c63e4505b2819372"
+    }
+  ]
+}

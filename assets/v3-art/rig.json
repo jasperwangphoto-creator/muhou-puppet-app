@@ -1,0 +1,447 @@
+{
+  "version": 3,
+  "status": "candidate",
+  "characterId": 2,
+  "source": "puppet-2.png",
+  "sourceBounds": [
+    610,
+    19,
+    325,
+    602
+  ],
+  "canvas": {
+    "width": 325,
+    "height": 602
+  },
+  "placement": {
+    "x": -81.25,
+    "y": -227,
+    "width": 162.5,
+    "height": 301
+  },
+  "landmarks": {
+    "neck": [
+      165,
+      153
+    ],
+    "hip": [
+      163,
+      288
+    ],
+    "left": {
+      "shoulder": [
+        105,
+        186
+      ],
+      "elbow": [
+        94,
+        263
+      ],
+      "wrist": [
+        154,
+        257
+      ]
+    },
+    "right": {
+      "shoulder": [
+        226,
+        188
+      ],
+      "elbow": [
+        252,
+        295
+      ],
+      "wrist": [
+        232,
+        320
+      ]
+    }
+  },
+  "controllerInterface": {
+    "character": [
+      200,
+      270
+    ],
+    "headRest": [
+      0,
+      -148
+    ],
+    "shoulderRest": {
+      "left": 14,
+      "right": -14
+    },
+    "elbowRest": {
+      "left": -12,
+      "right": 12
+    }
+  },
+  "parts": [
+    {
+      "name": "head",
+      "file": "rig-huadan-v3/head-source.png",
+      "order": 10,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "supplied-source-RGBA",
+      "sourcePixels": 16959
+    },
+    {
+      "name": "torso",
+      "file": "rig-huadan-v3/torso-source.png",
+      "order": 10,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "supplied-source-RGBA",
+      "sourcePixels": 3847
+    },
+    {
+      "name": "skirt",
+      "file": "rig-huadan-v3/skirt-source.png",
+      "order": 10,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "supplied-source-RGBA",
+      "sourcePixels": 28213
+    },
+    {
+      "name": "left-upper-arm",
+      "file": "rig-huadan-v3/left-upper-arm-source.png",
+      "order": 10,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "supplied-source-RGBA",
+      "sourcePixels": 5879
+    },
+    {
+      "name": "right-upper-arm",
+      "file": "rig-huadan-v3/right-upper-arm-source.png",
+      "order": 10,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "supplied-source-RGBA",
+      "sourcePixels": 6218
+    },
+    {
+      "name": "left-forearm",
+      "file": "rig-huadan-v3/left-forearm-source.png",
+      "order": 10,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "supplied-source-RGBA",
+      "sourcePixels": 10505
+    },
+    {
+      "name": "right-forearm",
+      "file": "rig-huadan-v3/right-forearm-source.png",
+      "order": 10,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "supplied-source-RGBA",
+      "sourcePixels": 1184
+    },
+    {
+      "name": "left-hand",
+      "file": "rig-huadan-v3/left-hand-source.png",
+      "order": 10,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "supplied-source-RGBA",
+      "sourcePixels": 753
+    },
+    {
+      "name": "right-hand",
+      "file": "rig-huadan-v3/right-hand-source.png",
+      "order": 10,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "supplied-source-RGBA",
+      "sourcePixels": 460
+    },
+    {
+      "name": "left-sleeve",
+      "file": "rig-huadan-v3/left-sleeve-source.png",
+      "order": 10,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "supplied-source-RGBA",
+      "sourcePixels": 10246
+    },
+    {
+      "name": "right-sleeve",
+      "file": "rig-huadan-v3/right-sleeve-source.png",
+      "order": 10,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "supplied-source-RGBA",
+      "sourcePixels": 14664
+    },
+    {
+      "name": "torso",
+      "file": "rig-huadan-v3/torso-hidden-repair.png",
+      "order": 0,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "imagegen-hidden-joint-repair",
+      "atlas": "generated/rig-atlas-first.png",
+      "atlasSourceRect": [
+        354,
+        146,
+        300,
+        332
+      ],
+      "targetRect": [
+        87,
+        153,
+        159,
+        184
+      ],
+      "clip": "torsoRepair"
+    },
+    {
+      "name": "skirt",
+      "file": "rig-huadan-v3/skirt-hidden-repair.png",
+      "order": 0,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "imagegen-hidden-joint-repair",
+      "atlas": "generated/rig-atlas-first.png",
+      "atlasSourceRect": [
+        665,
+        112,
+        344,
+        400
+      ],
+      "targetRect": [
+        4,
+        277,
+        317,
+        315
+      ],
+      "clip": "original-silhouette"
+    },
+    {
+      "name": "left-upper-arm",
+      "file": "rig-huadan-v3/left-upper-arm-hidden-repair.png",
+      "order": 0,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "imagegen-hidden-joint-repair",
+      "atlas": "generated/rig-atlas-first.png",
+      "atlasSourceRect": [
+        93,
+        546,
+        188,
+        406
+      ],
+      "targetRect": [
+        69,
+        164,
+        70,
+        151
+      ],
+      "clip": "leftShoulderRepair"
+    },
+    {
+      "name": "right-upper-arm",
+      "file": "rig-huadan-v3/right-upper-arm-hidden-repair.png",
+      "order": 0,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "imagegen-hidden-joint-repair",
+      "atlas": "generated/rig-atlas-first.png",
+      "atlasSourceRect": [
+        92,
+        1013,
+        190,
+        420
+      ],
+      "targetRect": [
+        205,
+        165,
+        75,
+        157
+      ],
+      "clip": "rightShoulderRepair"
+    },
+    {
+      "name": "left-forearm",
+      "file": "rig-huadan-v3/left-forearm-hidden-repair.png",
+      "order": 0,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "imagegen-hidden-joint-repair",
+      "atlas": "generated/rig-atlas-first.png",
+      "atlasSourceRect": [
+        93,
+        546,
+        188,
+        406
+      ],
+      "targetRect": [
+        67,
+        222,
+        73,
+        158
+      ],
+      "clip": "leftElbowRepair"
+    },
+    {
+      "name": "right-forearm",
+      "file": "rig-huadan-v3/right-forearm-hidden-repair.png",
+      "order": 0,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "imagegen-hidden-joint-repair",
+      "atlas": "generated/rig-atlas-first.png",
+      "atlasSourceRect": [
+        92,
+        1013,
+        190,
+        420
+      ],
+      "targetRect": [
+        215,
+        260,
+        70,
+        155
+      ],
+      "clip": "rightElbowRepair"
+    },
+    {
+      "name": "left-sleeve",
+      "file": "rig-huadan-v3/left-sleeve-hidden-repair.png",
+      "order": 0,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "imagegen-hidden-joint-repair",
+      "atlas": "generated/rig-atlas-first.png",
+      "atlasSourceRect": [
+        803,
+        570,
+        84,
+        160
+      ],
+      "targetRect": [
+        140,
+        245,
+        32,
+        45
+      ],
+      "clip": "leftWristRepair"
+    },
+    {
+      "name": "right-sleeve",
+      "file": "rig-huadan-v3/right-sleeve-hidden-repair.png",
+      "order": 0,
+      "sourceRect": [
+        0,
+        0,
+        325,
+        602
+      ],
+      "origin": "imagegen-hidden-joint-repair",
+      "atlas": "generated/rig-atlas-first.png",
+      "atlasSourceRect": [
+        803,
+        570,
+        84,
+        160
+      ],
+      "targetRect": [
+        216,
+        300,
+        35,
+        48
+      ],
+      "clip": "rightWristRepair"
+    }
+  ],
+  "missing": [],
+  "acceptance": {
+    "staticPose": true,
+    "motionJoints": false,
+    "status": "source-identity-checked-motion-seams-unaccepted",
+    "inspection": "docs/v3-rig/inspection.json",
+    "meanAbsoluteRgbaError": 2.8980887073241903,
+    "issues": [
+      "Extreme elbow cloth edge still needs detailed art refinement",
+      "Wrist overlap and tiny sleeve boundary fragments require final manual cleanup"
+    ]
+  },
+  "provenance": {
+    "originalPixels": "Every supplied nonzero RGBA pixel is assigned to exactly one source layer. Face, clothing and ornaments remain original.",
+    "repair": "Generated atlas provides only covered torso, skirt and shoulder/elbow connection patches behind original layers. No complete-character rotation substitutes for articulation."
+  }
+}

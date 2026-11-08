@@ -1,0 +1,31 @@
+{
+  "original": {
+    "path": "E:/Users/Ming/Desktop/新建文件夹 (13)/花好月圆.mp4",
+    "bytes": 60020011,
+    "sha256": "f2449179c87fb6eea26e7934409c0093c290c705da73c847d316c58c3168541c",
+    "duration": 347.673,
+    "width": 1920,
+    "height": 1080,
+    "codec": "H.264 + AAC",
+    "modified": false
+  },
+  "playback": {
+    "file": "huahaoyueyuan-720p.mp4",
+    "bytes": 25497110,
+    "sha256": "7d27ad7b43e6d15b15b481050f38eef4da9cd4691ed1b9dd5354217df0aee438",
+    "width": 1280,
+    "height": 720,
+    "codec": "H.264 High + AAC",
+    "fullDurationRetained": true,
+    "fastStart": true,
+    "videoTargetKbps": 500,
+    "audioTargetKbps": 64
+  },
+  "poster": {
+    "file": "huahaoyueyuan-poster.jpg",
+    "sourceSeconds": 90,
+    "sha256": "941e269be99ccd80ed684f2a89d4bd3e3cb348fadc5e42565aed618f09a074e3"
+  },
+  "method": "FFmpeg from installed JianyingPro; full-length web playback derivative, no source overwrite",
+  "reference": "User explicitly supplied this video for the theatre homepage"
+}

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "builtAt": "2026-10-31T03:27:00.069Z",
+  "source": "web",
+  "output": "dist",
+  "files": 506,
+  "totalBytes": 150790514,
+  "vendor": "@capacitor/core 8.5.3 + @capacitor/app 8.1.2",
+  "mode": "verified source copy plus bundled Capacitor browser adapter"
+}

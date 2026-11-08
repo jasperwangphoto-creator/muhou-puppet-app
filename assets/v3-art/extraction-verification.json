@@ -1,0 +1,77 @@
+{
+  "sourceRGBAUnchanged": true,
+  "roles": [
+    {
+      "id": 0,
+      "checkedVisiblePixels": 105854,
+      "pixelsChanged": 0,
+      "dimensions": [
+        279,
+        589
+      ]
+    },
+    {
+      "id": 1,
+      "checkedVisiblePixels": 132818,
+      "pixelsChanged": 0,
+      "dimensions": [
+        355,
+        616
+      ]
+    },
+    {
+      "id": 2,
+      "checkedVisiblePixels": 98928,
+      "pixelsChanged": 0,
+      "dimensions": [
+        325,
+        602
+      ]
+    },
+    {
+      "id": 3,
+      "checkedVisiblePixels": 87616,
+      "pixelsChanged": 0,
+      "dimensions": [
+        286,
+        567
+      ]
+    },
+    {
+      "id": 4,
+      "checkedVisiblePixels": 112226,
+      "pixelsChanged": 0,
+      "dimensions": [
+        291,
+        583
+      ]
+    },
+    {
+      "id": 5,
+      "checkedVisiblePixels": 123741,
+      "pixelsChanged": 0,
+      "dimensions": [
+        362,
+        588
+      ]
+    },
+    {
+      "id": 6,
+      "checkedVisiblePixels": 108115,
+      "pixelsChanged": 0,
+      "dimensions": [
+        328,
+        573
+      ]
+    },
+    {
+      "id": 7,
+      "checkedVisiblePixels": 114568,
+      "pixelsChanged": 0,
+      "dimensions": [
+        301,
+        579
+      ]
+    }
+  ]
+}
